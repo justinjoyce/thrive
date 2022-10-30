@@ -124,9 +124,8 @@
         "blocks": {
           "announcement-bar-0": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
-              "text": "Welcome from Bailey Creative",
+              "text": "Welcome to your store from Bailey Creative",
               "text_alignment": "center",
               "color_scheme": "background-1",
               "link": ""
