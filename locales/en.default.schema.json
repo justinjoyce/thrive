@@ -984,6 +984,10 @@
           "label": "Enable sticky header",
           "info": "Header shows on the screen as customers scroll up."
         },
+        "enable_search": {
+          "label": "Enable search",
+          "info": "Search icon will be added left of the cart icon."
+        },
         "margin_bottom": {
           "label": "Bottom margin"
         },
