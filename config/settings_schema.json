@@ -4,8 +4,8 @@
     "theme_name": "Thrive",
     "theme_version": "0.0.0",
     "theme_author": "Bailey Creative",
-    "theme_documentation_url": "https://help.shopify.com/manual/online-store/themes",
-    "theme_support_url": "https://support.shopify.com/"
+    "theme_documentation_url": "https:\/\/help.shopify.com\/manual\/online-store\/themes",
+    "theme_support_url": "https:\/\/support.shopify.com\/"
   },
   {
     "name": "t:settings_schema.colors.name",
@@ -513,7 +513,7 @@
             "label": "t:sections.all.colors.inverse.label"
           }
         ],
-        "default": "background-2",
+        "default": "background-1",
         "label": "t:sections.all.colors.label"
       },
       {
@@ -600,22 +600,6 @@
     "name": "t:settings_schema.collection_cards.name",
     "settings": [
       {
-        "type": "select",
-        "id": "collection_card_style",
-        "options": [
-          {
-            "value": "standard",
-            "label": "t:settings_schema.collection_cards.settings.style.options__1.label"
-          },
-          {
-            "value": "card",
-            "label": "t:settings_schema.collection_cards.settings.style.options__2.label"
-          }
-        ],
-        "default": "standard",
-        "label": "t:settings_schema.collection_cards.settings.style.label"
-      },
-      {
         "type": "range",
         "id": "collection_card_image_padding",
         "min": 0,
@@ -670,8 +654,14 @@
             "label": "t:sections.all.colors.inverse.label"
           }
         ],
-        "default": "background-2",
+        "default": "background-1",
         "label": "t:sections.all.colors.label"
+      },
+      {
+        "type": "checkbox",
+        "id": "show_card_info",
+        "default": false,
+        "label": "t:settings_schema.search_input.settings.predictive_search_enabled.label"
       },
       {
         "type": "header",

@@ -365,6 +365,12 @@
 
 .banner__heading {
   margin-bottom: 0;
+  color: #231f20;
+  font-size: 11rem;
+  font-family: Andrial-ExtraBold;
+  font-weight: bold;
+  line-height: 0.9;
+  text-align: left;
 }
 
 .banner__box .banner__heading + * {

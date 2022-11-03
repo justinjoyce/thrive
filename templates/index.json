@@ -6,23 +6,23 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
+            "heading": "PLANT POWERED LIVING",
             "heading_size": "h0"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "This is cool, customers details about the banner image(s) or content on the template.",
+            "text": "",
             "text_style": "body"
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": true,
+            "button_label_1": "",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
@@ -35,8 +35,9 @@
         "button"
       ],
       "settings": {
-        "image_overlay_opacity": 40,
-        "image_height": "large",
+        "image": "shopify:\/\/shop_images\/thrive-homepage.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
         "adapt_height_first_image": false,
         "desktop_content_position": "bottom-center",
         "show_text_box": false,
@@ -53,14 +54,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Talk about your brand<\/p>",
+            "heading": "",
             "heading_size": "h1"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "<p><strong>Thrive Plant Co. was born from the recognition that we are all meant to THRIVE, not simply survive. As such, our plant-based products have been created to support your optimal level of health, using a combination of organic and natural ingredients. You will find recognizable ingredients in our products, such as fruits and vegetables, pea protein, and green tea. Don't worry, taste was high on our priority list, too. Our team worked diligently to ensure the best balance of ingredients for health and flavour, and our products are sweeted with stevia leaf extract.<\/strong><\/p>"
           }
         }
       },
@@ -69,6 +70,8 @@
         "text"
       ],
       "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 40,
@@ -78,51 +81,33 @@
     "collage": {
       "type": "collage",
       "blocks": {
-        "collection-0": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        },
         "product": {
           "type": "product",
           "settings": {
-            "product": "",
+            "product": "vegan-protein",
             "second_image": false
           }
         },
-        "collection-1": {
-          "type": "collection",
+        "877e7c8a-b747-48ec-a4a8-6025de6015e7": {
+          "type": "product",
           "settings": {
-            "collection": ""
+            "product": "good-greens",
+            "second_image": false
           }
         }
       },
       "block_order": [
-        "collection-0",
         "product",
-        "collection-1"
+        "877e7c8a-b747-48ec-a4a8-6025de6015e7"
       ],
       "settings": {
-        "heading": "Multimedia collage",
-        "heading_size": "h2",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "video": {
-      "type": "video",
-      "settings": {
         "heading": "",
-        "heading_size": "h1",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false,
+        "heading_size": "h2",
+        "desktop_layout": "right",
+        "mobile_layout": "column",
         "color_scheme": "background-1",
-        "padding_top": 36,
+        "show_card_info": false,
+        "padding_top": 76,
         "padding_bottom": 36
       }
     },
@@ -184,7 +169,6 @@
     "image_banner",
     "rich_text",
     "collage",
-    "video",
     "multicolumn"
   ]
 }

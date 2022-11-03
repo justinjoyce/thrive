@@ -1,3 +1,8 @@
+/* Fonts */
+@font-face {
+  font-family: Andrial-ExtraBold;
+  src: url(Andrial-ExtraBold.otf);
+}
 /* Color custom properties */
 
 :root,
@@ -13,10 +18,22 @@
   --gradient-background: var(--gradient-base-background-2);
 }
 
+.color-transparent {
+  --color-foreground: var(--color-base-background-1);
+  --color-background: var(--color-base-text);
+  --gradient-background: rgb(var(--color-base-text));
+}
+
 .color-inverse {
   --color-foreground: var(--color-base-background-1);
   --color-background: var(--color-base-text);
   --gradient-background: rgb(var(--color-base-text));
+}
+
+.color-none {
+  --color-foreground: unset;
+  --color-background: unset;
+  --gradient-background: unset;
 }
 
 .color-accent-1 {
