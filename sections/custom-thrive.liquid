@@ -1,0 +1,286 @@
+{{ 'custom-thrive.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+  padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+  padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+  .section-{{ section.id }}-padding {
+  padding-top: {{ section.settings.padding_top }}px;
+  padding-bottom: {{ section.settings.padding_bottom }}px;
+  }
+  }
+{%- endstyle -%}
+
+<div class="color-{{ section.settings.color_scheme }} gradient">
+  <div class="section-{{ section.id }}-padding">
+
+    {%- if section.settings.image-feature-top != blank -%}
+    <div class="top-feature">
+      <div style="background-image: url({{ section.settings.image-feature-top | image_url }})">
+
+      </div>
+    </div>
+    {%- endif -%}
+
+    {%- if section.settings.image-product-top != blank -%}
+      <div class="top-product">
+        <div>
+          <div>
+            <img src="{{ section.settings.image-product-top | image_url }}" alt="Thrive Top Product">
+          </div>
+          <div>
+            <div>
+              <div>25G</div>
+              <div>Organic Protein</div>
+            </div>
+            <div>
+              <div>0G</div>
+              <div>Sugar</div>
+            </div>
+            <div>
+              <div>20</div>
+              <div>Servings</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    {%- endif -%}
+
+    {%- if section.settings.image-product-multi != blank -%}
+      <div class="multi-product">
+        <div>
+          <h2 class="heading2">4 Delicious Flavours</h2>
+          <p class="paragraph"><strong>Naturally Flavored</strong></p>
+        </div>
+        <div>
+          <img src="{{ section.settings.image-product-multi | image_url }}" alt="Thrive Product Flavors">
+        </div>
+        <div>
+          <a href=""><button>Shop Vegan Protein</button></a>
+          <p class="paragraph">Four great flavor options come from natural flavors and stevia leaf extract, yielding zero grams of sugar in
+            the majority of our flavors (there is on gram of naturally occurring sugar in our Chocolate option). To help
+            support optimal digestion and overall health, no artificial flavours or sweeteners are used, and Xanthan gum
+            provides the enjoyable textture consumers seek from a protein supplement</p>
+        </div>
+      </div>
+    {%- endif -%}
+
+    {%- if section.settings.image-icon-1 != blank -%}
+      <div class="icons">
+        <div>
+          <img src="{{ section.settings.image-icon-1 | image_url }}" alt="Thrive Product Icons">
+          <img src="{{ section.settings.image-icon-2 | image_url }}" alt="Thrive Product Icons">
+          <img src="{{ section.settings.image-icon-3 | image_url }}" alt="Thrive Product Icons">
+          <img src="{{ section.settings.image-icon-4 | image_url }}" alt="Thrive Product Icons">
+        </div>
+      </div>
+    {%- endif -%}
+
+    {%- if section.settings.image-product-bottom != blank -%}
+      <div class="bottom-product">
+        <div>
+          <div>
+            <div>
+              <div>47</div>
+              <div>Premium Super Foods</div>
+            </div>
+          </div>
+          <div>
+            <img src="{{ section.settings.image-product-bottom | image_url }}" alt="Thrive Bottom Product">
+          </div>
+        </div>
+      </div>
+    {%- endif -%}
+
+    {%- if section.settings.image-product-small-top != blank and section.settings.image-product-small-bottom != blank -%}
+      <div class="good-greens">
+        <div>
+          <div>
+            <div>
+              <img src="{{ section.settings.image-product-small-top | image_url }}" alt="Thrive Good Greens Mixed Berries">
+            </div>
+            <div>
+              <img src="{{ section.settings.image-product-small-bottom | image_url }}" alt="Thrive Good Greens Iced Vanilla Chai">
+            </div>
+          </div>
+          <div>
+            <h2 class="heading2">2 Amazing Flavours</h2>
+            <span class="paragraph">Naturally Flavoured</span>
+            <p class="paragraph">Life is hectic, and it can be a challenge to hit your micronutrients every day - we get it. Good Greens solves this problem, in one simple tablespoon.</p>
+            <p class="paragraph">Good Greens contains 47 different superfoods to ensure each serving is packed full of micronutrients and antioxidants to promote optimal health and well-being on a daily basis.</p>
+            <a href=""><button>Shop Vegan Protein</button></a>
+          </div>
+        </div>
+      </div>
+    {%- endif -%}
+
+    {%- if section.settings.image-button-highlight != blank -%}
+      <div class="no-scoop">
+        <div>
+          <h1>Healthy People in a Healthy Environment</h1>
+          <div>
+            <img src="{{ section.settings.image-button-highlight | image_url }}" alt="Thrive No Plastic Scoop Notice">
+          </div>
+          <div>
+            <div>
+              <p class="paragraph">In an effort to reduce the strain on our environment, we opted to utilize bags for our products. Not only are these bags made from 100% recyclable material, their flexibility allows for a greater quantity to be shipped per carton, in comparison to traditional plastic tubs.</p>
+              <p class="paragraph">Additionally, we have gone scoop-free to reduce the amount of plastic waste going into our system.</p>
+            </div>
+            <div>
+              <p class="paragraph">For customer convenience, the serving sizes for our products are listed in tablespoons - a simple measurement tool found in all kitchens.</p>
+              <p class="paragraph">Being environmentally friendly will always be a priority for Thrive Plant Co. Our team is continually seeking new ways we can minimize our impact on the environment, whether that's through improving our packaging or raising awareness through our social platform.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    {%- endif -%}
+
+    {%- if section.settings.image-feature-bottom != blank -%}
+      <div class="learn-more">
+        <div>
+          <div>
+            <div>
+              <img src="{{ section.settings.image-feature-bottom | image_url }}" alt="Thrive No Plastic Scoop Notice">
+            </div>
+            <div>
+              <p class="paragraph">Our products contain an optimal blend of scientifically effective, natural ingredients that work harmoniously together to support a healthy lifestyle and overall well-being. Recognizing the importance that purity plays in optimizing the function of the body, our products are simple and straightforward with familiar ingredients to fuel people in a healthy way.</p>
+              <a href=""><button>Learn More</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    {%- endif -%}
+
+  </div>
+</div>
+
+{% schema %}
+{
+
+  "name": "t:sections.custom-thrive.name",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image-feature-top",
+      "label": "t:sections.custom-thrive.settings.image-feature-top.label"
+    },
+    {
+      "type": "image_picker",
+      "id": "image-product-top",
+      "label": "t:sections.custom-thrive.settings.image-product-top.label"
+    },
+    {
+      "type": "image_picker",
+      "id": "image-product-multi",
+      "label": "t:sections.custom-thrive.settings.image-product-multi.label"
+    },
+    {
+      "type": "image_picker",
+      "id": "image-icon-1",
+      "label": "t:sections.custom-thrive.settings.image-icon-1.label"
+    },
+    {
+      "type": "image_picker",
+      "id": "image-icon-2",
+      "label": "t:sections.custom-thrive.settings.image-icon-2.label"
+    },
+    {
+      "type": "image_picker",
+      "id": "image-icon-3",
+      "label": "t:sections.custom-thrive.settings.image-icon-3.label"
+    },
+    {
+      "type": "image_picker",
+      "id": "image-icon-4",
+      "label": "t:sections.custom-thrive.settings.image-icon-4.label"
+    },
+    {
+      "type": "image_picker",
+      "id": "image-product-bottom",
+      "label": "t:sections.custom-thrive.settings.image-product-bottom.label"
+    },
+    {
+      "type": "image_picker",
+      "id": "image-product-small-top",
+      "label": "t:sections.custom-thrive.settings.image-product-small-top.label"
+    },
+    {
+      "type": "image_picker",
+      "id": "image-product-small-bottom",
+      "label": "t:sections.custom-thrive.settings.image-product-small-bottom.label"
+    },
+    {
+      "type": "image_picker",
+      "id": "image-button-highlight",
+      "label": "t:sections.custom-thrive.settings.image-button-highlight.label"
+    },
+    {
+      "type": "image_picker",
+      "id": "image-feature-bottom",
+      "label": "t:sections.custom-thrive.settings.image-feature-bottom.label"
+    },
+    {
+      "type": "select",
+      "id": "color_scheme",
+      "options": [
+        {
+          "value": "accent-1",
+          "label": "t:sections.all.colors.accent_1.label"
+        },
+        {
+          "value": "accent-2",
+          "label": "t:sections.all.colors.accent_2.label"
+        },
+        {
+          "value": "background-1",
+          "label": "t:sections.all.colors.background_1.label"
+        },
+        {
+          "value": "background-2",
+          "label": "t:sections.all.colors.background_2.label"
+        },
+        {
+          "value": "inverse",
+          "label": "t:sections.all.colors.inverse.label"
+        }
+      ],
+      "default": "background-1",
+      "label": "t:sections.all.colors.label"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 52
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:sections.custom-thrive.presets.name"
+    }
+  ]
+}
+{% endschema %}

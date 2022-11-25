@@ -1,0 +1,231 @@
+.top-feature {
+    background: #231f20;
+    margin: 75px 0 20px;
+}
+
+.top-feature > div {
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    height: 90vh;
+    width: 80%;
+}
+
+.top-product {
+    background: #6cc6be;
+}
+
+.top-product > div {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30% 0 15%;
+}
+
+.top-product > div > div:nth-child(1) {
+    width: 70%;
+    z-index: 10;
+}
+.top-product > div > div:nth-child(1) > img {
+    width: 100%;
+    margin: -50px 0 -9px;
+}
+
+.top-product > div > div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 30%;
+    color: #fff;
+}
+
+.top-product > div > div:nth-child(2) > div > div:nth-child(1) {
+    font-size: 12rem;
+    font-family: Andrial-ExtraBold;
+    font-weight: bold;
+    line-height: 0.8;
+}
+
+.top-product > div > div:nth-child(2) > div > div:nth-child(2) {
+    font-size: 3rem;
+    font-family: Andrial-Regular;
+    line-height: 1;
+    width: 50%;
+}
+
+.multi-product {
+    text-align: center;
+    margin-top: 75px;
+}
+
+.multi-product > div {
+    width: 60vw;
+    margin: 0 auto;
+}
+
+.multi-product > div:nth-child(1) > p {
+    margin: -5px 0 75px;
+}
+
+.multi-product img {
+    width: 100%;
+}
+
+.icons {
+    background: #231f20;
+    margin-top: 75px;
+}
+
+.icons > div {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+.icons > div > img {
+    width: 128px;
+    height: 128px;
+}
+
+.bottom-product {
+    background: #afd275;
+}
+
+.bottom-product > div {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20% 0 20%;
+    height: 650px;
+}
+
+.bottom-product > div > div:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 30%;
+    color: #fff;
+}
+
+.bottom-product > div > div:nth-child(1) > div > div:nth-child(1) {
+    font-family: Andrial-ExtraBold;
+    font-size: 22rem;
+    line-height: 0.8;
+}
+
+.bottom-product > div > div:nth-child(1) > div > div:nth-child(2) {
+    font-family: Andrial-Black;
+    font-size: 8rem;
+    text-transform: uppercase;
+    line-height: 0.8;
+    width: 50%;
+}
+
+.bottom-product > div > div:nth-child(2) {
+    width: 70%;
+    z-index: 10;
+}
+.bottom-product > div > div:nth-child(2) > img {
+    width: 1000px;
+    position: absolute;
+    top: -90px;
+    right: 0;
+}
+
+.good-greens {
+    margin-top: 50px;
+}
+
+.good-greens > div {
+    display: flex;
+    justify-content: space-between;
+    width: 60vw;
+    margin: 0 auto;
+}
+
+.good-greens > div > div:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 40%;
+    color: #fff;
+}
+
+.good-greens > div > div:nth-child(1) > div > img {
+    width: 70%;
+    padding: 20px;
+}
+
+.good-greens > div > div:nth-child(2) {
+    width: 60%;
+    margin-top: 150px;
+}
+
+.no-scoop > div {
+    width: 60vw;
+    margin: 0 auto;
+}
+
+.no-scoop > div > h1 {
+    font-family: Andrial-Black;
+    text-transform: uppercase;
+    font-size: 11rem;
+    color: #231f20;
+    line-height: 0.8;
+    margin-bottom: 0;
+}
+
+.no-scoop > div > div:nth-child(3) {
+    display: flex;
+    gap: 30px;
+}
+
+.learn-more {
+    margin: 75px 0;
+    background: #231f20;
+}
+
+.learn-more > div {
+    width: 60vw;
+    margin: 0 auto;
+}
+
+.learn-more > div > div {
+    display: flex;
+    gap: 30px;
+}
+.learn-more > div > div > div {
+    width: 50%;
+    position: relative;
+}
+
+.learn-more > div > div > div:nth-child(1) > img {
+    width: 585px;
+    position: absolute;
+    right: 0;
+}
+
+.learn-more > div > div > div:nth-child(2) {
+    padding: 75px 75px 75px 10px;
+}
+
+.learn-more > div > div > div:nth-child(2) > p {
+    color: #fff;
+}
+
+
+.heading2 {
+    font-family: Andrial-Black;
+    font-size: 5rem;
+    margin-bottom: 0;
+}
+
+#shopify-section-template--17053043425600__rich_text > div > div > div > div > div > p,
+#shopify-section-template--17010610995520__rich_text > div > div > div > div > div > p, /* Is this used? Do Id's change? */
+.paragraph {
+    font-size: 2.5rem;
+    font-family: Andrial-Medium;
+    line-height: 1.3;
+}

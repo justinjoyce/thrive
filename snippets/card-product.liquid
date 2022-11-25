@@ -32,14 +32,14 @@
       assign ratio = 1
     endif
   -%}
-  <div class="card-wrapper product-card-wrapper underline-links-hover"">
-    <div style="text-align: center;">
+  <div class="card-wrapper product-card-wrapper underline-links-hover">
+    <div class="card-button-wrapper">
       <a href="{{ card_product.url }}"
          id="StandardCardNoMediaLink-{{ section_id }}-{{ card_product.id }}"
          class="full-unstyled-link"
          aria-labelledby="StandardCardNoMediaLink-{{ section_id }}-{{ card_product.id }} NoMediaStandardBadge-{{ section_id }}-{{ card_product.id }}"
       >
-        <button>Shop {{ card_product.title | escape }}</button>
+        <button class="card-button">Shop {{ card_product.title | escape }}</button>
       </a>
     </div>
     <div

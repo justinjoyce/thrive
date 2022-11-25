@@ -601,6 +601,50 @@
         "name": "Custom Liquid"
       }
     },
+    "custom-thrive": {
+      "name": "Custom Thrive",
+      "settings": {
+        "image-feature-top": {
+          "label": "Top Feature Image"
+        },
+        "image-product-top": {
+          "label": "Top Product Image"
+        },
+        "image-product-multi": {
+          "label": "Multiple Product Image"
+        },
+        "image-icon-1": {
+          "label": "Icon 1"
+        },
+        "image-icon-2": {
+          "label": "Icon 2"
+        },
+        "image-icon-3": {
+          "label": "Icon 3"
+        },
+        "image-icon-4": {
+          "label": "Icon 4"
+        },
+        "image-product-bottom": {
+          "label": "Bottom Product Image"
+        },
+        "image-product-small-top": {
+          "label": "Small Product Image Top"
+        },
+        "image-product-small-bottom": {
+          "label": "Small Product Image Bottom"
+        },
+        "image-button-highlight": {
+          "label": "Button Highlight Image"
+        },
+        "image-feature-bottom": {
+          "label": "Bottom Feature Image"
+        }
+      },
+      "presets": {
+        "name": "Custom Thrive"
+      }
+    },
     "featured-blog": {
       "name": "Blog posts",
       "settings": {

@@ -61,7 +61,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Thrive Plant Co. was born from the recognition that we are all meant to THRIVE, not simply survive. As such, our plant-based products have been created to support your optimal level of health, using a combination of organic and natural ingredients. You will find recognizable ingredients in our products, such as fruits and vegetables, pea protein, and green tea. Don't worry, taste was high on our priority list, too. Our team worked diligently to ensure the best balance of ingredients for health and flavour, and our products are sweeted with stevia leaf extract.<\/strong><\/p>"
+            "text": "<p>Thrive Plant Co. was born from the recognition that we are all meant to THRIVE, not simply survive. As such, our plant-based products have been created to support your optimal level of health, using a combination of organic and natural ingredients. You will find recognizable ingredients in our products, such as fruits and vegetables, pea protein, and green tea. Don't worry, taste was high on our priority list, too. Our team worked diligently to ensure the best balance of ingredients for health and flavour, and our products are sweeted with stevia leaf extract.<\/p>"
           }
         }
       },
@@ -111,57 +111,24 @@
         "padding_bottom": 36
       }
     },
-    "multicolumn": {
-      "type": "multicolumn",
-      "blocks": {
-        "column1": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column2": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column3": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column1",
-        "column2",
-        "column3"
-      ],
+    "c739328a-ad6e-463c-ab5d-ac26005b58aa": {
+      "type": "custom-thrive",
       "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "third",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
+        "image-feature-top": "shopify:\/\/shop_images\/Thrive-Get-Ready.jpg",
+        "image-product-top": "shopify:\/\/shop_images\/Top-Product.png",
+        "image-product-multi": "shopify:\/\/shop_images\/Multi-Product.png",
+        "image-icon-1": "shopify:\/\/shop_images\/Thrive-Icon-1.png",
+        "image-icon-2": "shopify:\/\/shop_images\/Thrive-Icon-2.png",
+        "image-icon-3": "shopify:\/\/shop_images\/Thrive-Icon-3.png",
+        "image-icon-4": "shopify:\/\/shop_images\/Thrive-Icon-4.png",
+        "image-product-bottom": "shopify:\/\/shop_images\/Bottom_Product.png",
+        "image-product-small-top": "shopify:\/\/shop_images\/Thrive-Good-Greens-Mixed-Berries.png",
+        "image-product-small-bottom": "shopify:\/\/shop_images\/Thrive-Good-Greens-Iced-Vanilla-Chai.png",
+        "image-button-highlight": "shopify:\/\/shop_images\/Thrive-NoScoop.png",
+        "image-feature-bottom": "shopify:\/\/shop_images\/Thrive-Yoga.jpg",
         "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     }
   },
@@ -169,6 +136,6 @@
     "image_banner",
     "rich_text",
     "collage",
-    "multicolumn"
+    "c739328a-ad6e-463c-ab5d-ac26005b58aa"
   ]
 }

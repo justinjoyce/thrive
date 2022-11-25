@@ -1,7 +1,32 @@
 /* Fonts */
 @font-face {
+  font-family: Andrial-Black;
+  src: url(Andrial-Black.otf);
+}
+
+@font-face {
   font-family: Andrial-ExtraBold;
   src: url(Andrial-ExtraBold.otf);
+}
+
+@font-face {
+  font-family: Andrial-Bold;
+  src: url(Andrial-Bold.otf);
+}
+
+@font-face {
+  font-family: Andrial-DemiBold;
+  src: url(Andrial-DemiBold.otf);
+}
+
+@font-face {
+  font-family: Andrial-Medium;
+  src: url(Andrial-Medium.otf);
+}
+
+@font-face {
+  font-family: Andrial-Regular;
+  src: url(Andrial-Regular.otf);
 }
 /* Color custom properties */
 
