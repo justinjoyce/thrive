@@ -914,6 +914,10 @@
             "menu": {
               "label": "Menu",
               "info": "Displays only top-level menu items."
+            },
+            "image": {
+              "label": "Site Logo",
+              "info": "Displays the site logo to the left of the menu."
             }
           }
         },
@@ -927,6 +931,14 @@
               "label": "Subtext"
             }
           }
+        },
+        "newsletter": {
+          "name": "Newsletter",
+          "settings": {
+            "heading": {
+              "label": "Heading"
+            }
+          }
         }
       },
       "settings": {
@@ -938,34 +950,41 @@
         },
         "header__1": {
           "content": "Email Signup",
-          "info": "Subscribers added automatically to your “accepted marketing” customer list. [Learn more](https:\/\/help.shopify.com\/manual\/customers\/manage-customers)"
+          "info": "Subscribers added automatically to your “accepted marketing” customer list. [Learn more](https:\/\/help.shopify.com\/manual\/customers\/manage-customers) Note: Setting the footer block newsletter overrides enabling the newsletter here!"
         },
         "header__2": {
+          "content": "Enable footer bottom",
+          "info": "To display the Country/Region & Language Selectors plus the Payment Methods, enable this setting. Note: these features likely required development!"
+        },
+        "bottom_enable": {
+          "label": "Show footer bottom"
+        },
+        "header__3": {
           "content": "Social media icons",
           "info": "To display your social media accounts, link them in your theme settings."
         },
         "show_social": {
           "label": "Show social media icons"
         },
-        "header__3": {
+        "header__4": {
           "content": "Country\/region selector"
         },
-        "header__4": {
+        "header__5": {
           "info": "To add a country\/region, go to your [payment settings.](\/admin\/settings\/payments)"
         },
         "enable_country_selector": {
           "label": "Enable country\/region selector"
         },
-        "header__5": {
+        "header__6": {
           "content": "Language selector"
         },
-        "header__6": {
+        "header__7": {
           "info": "To add a language, go to your [language settings.](\/admin\/settings\/languages)"
         },
         "enable_language_selector": {
           "label": "Enable language selector"
         },
-        "header__7": {
+        "header__8": {
           "content": "Payment methods"
         },
         "payment_enable": {
