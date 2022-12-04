@@ -345,6 +345,11 @@ a.product__text {
   margin: 0;
 }
 
+.product__title > h1 {
+  font-family: Andrial-Black;
+  font-size: 5rem;
+}
+
 .product__title > a {
   display: none;
 }
@@ -353,8 +358,20 @@ a.product__text {
   margin-top: -1.5rem;
 }
 
+.product__title > .product__description {
+  margin-top: -0.1em;
+  font-family: Andrial-Regular;
+  font-size: 2rem;
+  line-height: 1.1;
+}
+
 .product__text.caption-with-letter-spacing + .product__title {
   margin-top: 0;
+}
+
+span.price-item {
+  font-family: Andrial-ExtraBold;
+  font-size: 6rem;
 }
 
 .product__accordion .accordion__content {
