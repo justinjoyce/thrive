@@ -65,3 +65,24 @@
         width: 225px;
     }
 }
+
+@media (max-width: 750px) {
+    .footer {
+        height: 220px;
+    }
+
+    #shopify-section-footer > footer > div > div > div.footer-block.grid__item.footer-block--menu > div > div:nth-child(2) {
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+    #shopify-section-footer > footer > div > div > div.footer-block.grid__item.footer-block--menu {
+        display: none;
+    }
+    #shopify-section-footer > footer > div > div > div:nth-child(2) {
+        width: 100%;
+    }
+}
+
+

@@ -30,6 +30,7 @@
                 card_product: block.settings.product,
                 media_aspect_ratio: 'adapt',
                 show_secondary_image: block.settings.second_image,
+                button_color: block.settings.button_color,
                 show_card_info: section.settings.show_card_info,
                 extend_height: true
               %}
@@ -179,6 +180,22 @@
           "id": "second_image",
           "default": false,
           "label": "t:sections.collage.blocks.product.settings.second_image.label"
+        },
+        {
+          "type": "select",
+          "id": "button_color",
+          "options": [
+            {
+              "value": "green",
+              "label": "t:sections.all.buttons.green.label"
+            },
+            {
+              "value": "blue",
+              "label": "t:sections.all.buttons.blue.label"
+            }
+          ],
+          "default": "green",
+          "label": "t:sections.collage.blocks.product.settings.button_color.label"
         }
       ]
     }

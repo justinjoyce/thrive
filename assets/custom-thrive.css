@@ -1,3 +1,7 @@
+#MainContent {
+    overflow-x: hidden;
+}
+
 .top-feature {
     background: #231f20;
     margin: 75px 0 20px;
@@ -7,7 +11,7 @@
     position: relative;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: bottom left;
+    background-position: right;
     height: 90vh;
     width: 80%;
 }
@@ -58,13 +62,12 @@
     margin-top: 75px;
 }
 
-.multi-product > div {
-    width: 60vw;
-    margin: 0 auto;
-}
-
 .multi-product > div:nth-child(1) > p {
     margin: -5px 0 75px;
+}
+
+.multi-product .thrive-button {
+    margin: 50px 0;
 }
 
 .multi-product img {
@@ -124,14 +127,16 @@
 }
 
 .bottom-product > div > div:nth-child(2) {
+    display: grid;
     width: 70%;
+    align-content: center;
     z-index: 10;
 }
+
 .bottom-product > div > div:nth-child(2) > img {
-    width: 1000px;
-    position: absolute;
-    top: -90px;
-    right: 0;
+    position: relative;
+    top: 58px;
+    left: -170px;
 }
 
 .good-greens {
@@ -141,8 +146,6 @@
 .good-greens > div {
     display: flex;
     justify-content: space-between;
-    width: 60vw;
-    margin: 0 auto;
 }
 
 .good-greens > div > div:nth-child(1) {
@@ -163,18 +166,18 @@
     margin-top: 150px;
 }
 
-.no-scoop > div {
-    width: 60vw;
-    margin: 0 auto;
-}
-
 .no-scoop > div > h1 {
     font-family: Andrial-Black;
     text-transform: uppercase;
     font-size: 11rem;
+    word-break: keep-all;
     color: #231f20;
     line-height: 0.8;
     margin-bottom: 0;
+}
+
+.no-scoop > div > div:nth-child(2) > img {
+    max-width: 100%;
 }
 
 .no-scoop > div > div:nth-child(3) {
@@ -202,7 +205,7 @@
 }
 
 .learn-more > div > div > div:nth-child(1) > img {
-    width: 585px;
+    width: 535px;
     position: absolute;
     right: 0;
 }
@@ -215,6 +218,11 @@
     color: #fff;
 }
 
+/* Shared Styles */
+.thrive-container {
+    width: 60vw;
+    margin: 0 auto;
+}
 
 .heading2 {
     font-family: Andrial-Black;
@@ -222,10 +230,195 @@
     margin-bottom: 0;
 }
 
-#shopify-section-template--17053043425600__rich_text > div > div > div > div > div > p,
-#shopify-section-template--17010610995520__rich_text > div > div > div > div > div > p, /* Is this used? Do Id's change? */
+.rich-text__text > p,
 .paragraph {
     font-size: 2.5rem;
     font-family: Andrial-Medium;
     line-height: 1.3;
+}
+
+@media (max-width: 1700px) {
+    .learn-more > div > div > div:nth-child(2) {
+        padding: 75px 0 75px 10px;
+    }
+}
+
+@media (max-width: 1500px) {
+    .learn-more > div > div > div:nth-child(2) {
+        padding: 20px 0 30px 0;
+    }
+}
+
+@media (max-width: 1400px) {
+    .top-feature > div {
+        background-size: contain;
+        background-position: left;
+        height: 70vh;
+        width: unset;
+    }
+
+    .icons > div {
+        width: 80%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .top-product > div > div:nth-child(2) {
+        width: 20%;
+    }
+
+    .top-product > div > div:nth-child(2) > div > div:nth-child(1) {
+        font-size: 9rem;
+        line-height: 0.8;
+    }
+
+    .learn-more > div {
+        width: 85vw;
+    }
+}
+
+@media (max-width: 1050px) {
+    .top-feature > div {
+        height: 50vh;
+    }
+
+    .top-product > div > div:nth-child(2) > div > div:nth-child(1) {
+        font-size: 5rem;
+        line-height: 0.8;
+    }
+
+    .top-product > div > div:nth-child(2) > div > div:nth-child(2) {
+        font-size: 2rem;
+    }
+
+    .icons > div {
+        width: 100%;
+    }
+}
+
+@media (max-width: 850px) {
+    .thrive-container {
+        width: 85vw;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 750px) {
+    .banner__heading {
+        font-size: 9rem;
+    }
+
+    .top-feature > div {
+        height: 30vh;
+    }
+
+    .top-product > div > div:nth-child(2) > div > div:nth-child(1) {
+        font-size: 3.6rem;
+        line-height: 0.8;
+    }
+
+    .top-product > div > div:nth-child(2) > div > div:nth-child(2) {
+        font-size: 1.8rem;
+    }
+
+    .icons > div > img {
+        width: 90px;
+        height: 90px;
+    }
+
+    .bottom-product > div {
+        padding: 0 0 0 8%;
+    }
+
+    .no-scoop > div > h1 {
+        font-size: 6rem;
+    }
+
+    .learn-more {
+        margin: 75px 0 0;
+    }
+
+    .learn-more > div > div {
+        display: block;
+    }
+
+    .learn-more > div > div > div {
+        width: 100%;
+    }
+
+    .learn-more > div > div > div:nth-child(1) {
+        display: none;
+    }
+}
+
+@media (max-width: 550px) {
+    .banner__heading {
+        font-size: 7rem;
+    }
+
+    .icons > div > img {
+        width: 64px;
+        height: 64px;
+    }
+
+    .top-product > div {
+        padding: 0 10%;
+    }
+
+    .top-product > div > div:nth-child(1) {
+        width: 40%;
+    }
+
+    .top-product > div > div:nth-child(2) {
+        width: 50%;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .top-product > div > div:nth-child(2) > div {
+        width: 33%;
+    }
+
+    .top-product > div > div:nth-child(2) > div > div:nth-child(1) {
+        font-size: 2.6rem;
+        line-height: 0.8;
+    }
+
+    .top-product > div > div:nth-child(2) > div > div:nth-child(2) {
+        font-size: 1.4rem;
+        min-height: 28px;
+    }
+
+    .bottom-product > div {
+        height: 475px;
+    }
+
+    .bottom-product > div > div:nth-child(1) {
+        width: 100%;
+        padding: 40px;
+    }
+
+    .bottom-product > div > div:nth-child(2) {
+        display: none;
+    }
+
+    .good-greens > div {
+         display: block;
+    }
+
+    .good-greens > div > div:nth-child(1) {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .good-greens > div > div:nth-child(1) > div > img {
+        width: 100%;
+    }
+
+    .good-greens > div > div:nth-child(2) {
+        width: 100%;
+        margin-top: 40px;
+    }
 }

@@ -1520,6 +1520,39 @@ button.shopify-payment-button__button--unbranded {
   stroke: rgb(var(--color-button-text));
 }
 
+/* Button - Thrive */
+.thrive-button {
+  padding: 15px 35px;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+  border: unset;
+  border-radius: 10px;
+  box-shadow: rgb(0 0 0 / 16%) 0 5px 15px 0, rgb(0 0 0 / 6%) 0 0 0 1px;
+  transition: color 1s;
+}
+
+.thrive-button.green {
+  background-color: #afd275;
+  transition: background-color 500ms;
+}
+
+.thrive-button.green:hover {
+  background-color: #f2f8e8;
+  color: #afd275;
+}
+
+.thrive-button.blue {
+  background-color: #6cc6be;
+  transition: background-color 500ms;
+}
+
+
+.thrive-button.blue:hover {
+  background-color: #f2faf9;
+  color: #6cc6be;
+}
+
 /* Button - social share */
 
 .share-button {

@@ -85,14 +85,16 @@
           "type": "product",
           "settings": {
             "product": "vegan-protein",
-            "second_image": false
+            "second_image": false,
+            "button_color": "blue"
           }
         },
         "877e7c8a-b747-48ec-a4a8-6025de6015e7": {
           "type": "product",
           "settings": {
             "product": "good-greens",
-            "second_image": false
+            "second_image": false,
+            "button_color": "green"
           }
         }
       },

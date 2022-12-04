@@ -336,9 +336,12 @@
 .card-article-info {
   margin-top: 1rem;
 }
+
 .card-button-wrapper {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: -20px;
+  position: inherit;
+  z-index: 100;
 }
 
 .card-button {
@@ -349,4 +352,11 @@
   border: unset;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.16) 0 5px 15px 0, rgba(0, 0, 0, 0.06) 0 0 0 1px;
+}
+
+@media (max-width: 750px) {
+
+  #shopify-section-template--17137369416000__collage > div > div > div > div:nth-child(2) {
+    margin-top: 40px;
+  }
 }
