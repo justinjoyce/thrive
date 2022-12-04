@@ -323,7 +323,9 @@ fieldset.product-form__input .form__label {
 }
 
 .product__text {
-  margin-bottom: 0;
+  margin-bottom: -10px;
+  font-family: Andrial-Regular;
+  font-size: 1.7rem;
 }
 
 a.product__text {

@@ -656,6 +656,26 @@
         "name": "Custom Thrive"
       }
     },
+    "custom-thrive-good-greens": {
+      "name": "Custom Thrive Good Greens",
+      "settings": {
+        "image-mixed-berries-product-back": {
+          "label": "Mixed Berries Product Back Image"
+        },
+        "image-iced-vanilla-chai-product-back": {
+          "label": "Iced Vanilla Chai Product Back Image"
+        },
+        "image-mixed-berries-product-info": {
+          "label": "Mixed Berries Product Info Image"
+        },
+        "image-iced-vanilla-chai-product-info": {
+          "label": "Iced Vanilla Chai Product Info Image"
+        }
+      },
+      "presets": {
+        "name": "Custom Thrive Good Greens"
+      }
+    },
     "featured-blog": {
       "name": "Blog posts",
       "settings": {

@@ -6,7 +6,7 @@
         "vendor": {
           "type": "text",
           "settings": {
-            "text": "Plant Based",
+            "text": "Plant-Based",
             "text_style": "uppercase"
           }
         },
@@ -80,10 +80,22 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "5e916e70-2858-42f7-96a8-21b247c04ba8": {
+      "type": "custom-thrive-good-greens",
+      "settings": {
+        "image-mixed-berries-product-back": "shopify:\/\/shop_images\/Thrive-Good-Greens-Mixed-Berries-Back.png",
+        "image-iced-vanilla-chai-product-back": "shopify:\/\/shop_images\/Thrive-Good-Greens-Iced-Vanilla-Chai-Back.png",
+        "image-mixed-berries-product-info": "shopify:\/\/shop_images\/Thrive-Good-Greens-Mixed-Berries-Info.jpg",
+        "image-iced-vanilla-chai-product-info": "shopify:\/\/shop_images\/Thrive-Good-Greens-Iced-Vanilla-Chai-Info.jpg",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
-    "product-recommendations"
+    "product-recommendations",
+    "5e916e70-2858-42f7-96a8-21b247c04ba8"
   ]
 }
