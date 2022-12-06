@@ -2,25 +2,24 @@
 
 {%- style -%}
   .section-{{ section.id }}-padding {
-  padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
-  padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
 
   @media screen and (min-width: 750px) {
-  .section-{{ section.id }}-padding {
-  padding-top: {{ section.settings.padding_top }}px;
-  padding-bottom: {{ section.settings.padding_bottom }}px;
-  }
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
   }
 {%- endstyle -%}
 
 <div class="color-{{ section.settings.color_scheme }} gradient">
   <div class="section-{{ section.id }}-padding">
 
-    {%- if section.settings.image-mix-berries-product-back != blank -%}
-    <div class="thrive-products">
+    {%- if section.settings.image-product-info-mask != blank -%}
+    <div class="thrive-products" style="background-image: url('{{ section.settings.image-product-info-mask | image_url }}')">
       <div>
-
         <div>
           <div>
             <h2>Gluten-Free</h2>
@@ -30,10 +29,6 @@
             <h2>47 Premium Superfoods</h2>
             <p>Boost your daily micronutrient intake for overall health</p>
           </div>
-        </div>
-
-        <div>
-          <img src="{{ section.settings.image-mix-berries-product-back | image_url }}">
         </div>
 
         <div>
@@ -47,10 +42,83 @@
           </div>
         </div>
 
+        <img src="{{ section.settings.image-mixed-berries-product-back | image_url }}">
+
       </div>
     </div>
+
+    <div class="thrive-product-swap">
+      <button class="thrive-button green">Iced Vanilla Chai</button>
+      <button class="thrive-button green">Mixed Berries</button>
+    </div>
+
+    <div class="thrive-product-info">
+      <img src="{{ section.settings.image-mixed-berries-product-info | image_url }}">
+    </div>
+
+    <div class="thrive-product-notes">
+      <div>
+        <h2>Provides antioxidants for the maintenance of good health</h2>
+      </div>
+      <div>
+        <p class="paragraph">Good Greens contains 47 different superfoods to ensure each serving is packed full of micronutrients and antioxidants to promote optimal health and well-being on a daily basis.</p>
+        <p class="paragraph">The list of ingredients may be long, but it's full of familiar items, from fruits and vegetables, to green tea and herbs. The blend of natural ingredients, natural flavors, and stevia leaf extract has been carefully balanced for a great tasting greens product our consumers will want to enjoy as part of their daily routine.</p>
+      </div>
+    </div>
+
     {%- endif -%}
 
+    {%- if section.settings.image-product-action-shot != blank -%}
+
+    <div class="thrive-action-shot" style="background-image: url('{{ section.settings.image-product-action-shot | image_url }}')">
+      <div>
+        <h2>Protection against the oxidative effects caused by free radicals</h2>
+      </div>
+    </div>
+
+    {%- endif -%}
+
+    <div class="thrive-advice">
+      <div>
+        <h2>Life is hectic and it can be a challenge to hit your micronutrients every day - we git it. Good Greens solves this problem, in one simple tablespoon.</h2>
+      </div>
+    </div>
+
+
+    <div class="thrive-flavors" style="text-align: center">
+      <h2>2 Delicious Flavours</h2>
+      <p>Naturally Flavoured</p>
+      <div>
+        <div>Iced Vanilla Chai</div>
+        <div>Mixed Berries</div>
+      </div>
+      <div>
+        <div>
+          <span>100%</span>Vegan
+        </div>
+        <div>
+          <span>0</span>Fillers
+        </div>
+        <div>
+          <span>40</span>Servings
+        </div>
+      </div>
+    </div>
+
+    <div class="thrive-reviews">
+      <h1>Reviews</h1>
+      <div>
+        <div>
+          <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus neque augue, malesuada dapibus lobortis at, tincidunt id turpis. Quisque ultricies ut ipsum sed auctor. Sed eu eros id mi luctus sollicitudin id vitae urna. Aliquam ipsum felis, egestas quis est quis, feugiat tristique augue. Vestibulum sed metus ut eros euismod semper. Donec metus mauris, rutrum id diam sed, tempor finibus arcu. Integer ligula lorem, lacinia sed laoreet ut, eleifend in elit. Nulla facilisi.</p>
+        </div>
+        <div>
+          <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus neque augue, malesuada dapibus lobortis at, tincidunt id turpis. Quisque ultricies ut ipsum sed auctor. Sed eu eros id mi luctus sollicitudin id vitae urna. Aliquam ipsum felis, egestas quis est quis, feugiat tristique augue. Vestibulum sed metus ut eros euismod semper. Donec metus mauris, rutrum id diam sed, tempor finibus arcu. Integer ligula lorem, lacinia sed laoreet ut, eleifend in elit. Nulla facilisi.</p>
+        </div>
+        <div>
+          <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus neque augue, malesuada dapibus lobortis at, tincidunt id turpis. Quisque ultricies ut ipsum sed auctor. Sed eu eros id mi luctus sollicitudin id vitae urna. Aliquam ipsum felis, egestas quis est quis, feugiat tristique augue. Vestibulum sed metus ut eros euismod semper. Donec metus mauris, rutrum id diam sed, tempor finibus arcu. Integer ligula lorem, lacinia sed laoreet ut, eleifend in elit. Nulla facilisi.</p>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 
@@ -60,6 +128,11 @@
   "tag": "section",
   "class": "section",
   "settings": [
+    {
+      "type": "image_picker",
+      "id": "image-product-info-mask",
+      "label": "t:sections.custom-thrive-good-greens.settings.image-product-info-mask.label"
+    },
     {
       "type": "image_picker",
       "id": "image-mixed-berries-product-back",
@@ -79,6 +152,11 @@
       "type": "image_picker",
       "id": "image-iced-vanilla-chai-product-info",
       "label": "t:sections.custom-thrive-good-greens.settings.image-iced-vanilla-chai-product-info.label"
+    },
+    {
+      "type": "image_picker",
+      "id": "image-product-action-shot",
+      "label": "t:sections.custom-thrive-good-greens.settings.image-product-action-shot.label"
     },
     {
       "type": "range",

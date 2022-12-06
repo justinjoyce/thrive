@@ -659,6 +659,9 @@
     "custom-thrive-good-greens": {
       "name": "Custom Thrive Good Greens",
       "settings": {
+        "image-product-info-mask": {
+          "label": "Product Info Background Image"
+        },
         "image-mixed-berries-product-back": {
           "label": "Mixed Berries Product Back Image"
         },
@@ -670,6 +673,9 @@
         },
         "image-iced-vanilla-chai-product-info": {
           "label": "Iced Vanilla Chai Product Info Image"
+        },
+        "image-product-action-shot": {
+          "label": "Product Action Image"
         }
       },
       "presets": {
