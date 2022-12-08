@@ -719,6 +719,7 @@
     }
 
     closeSearchModal() {
+      return false; /*Disabled JJ 2022.12.06*/
       this.searchModal = this.searchModal || this.header.querySelector('details-modal');
       this.searchModal.close(false);
     }

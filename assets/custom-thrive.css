@@ -219,22 +219,31 @@
 }
 
 /* Shared Styles */
-.thrive-container {
-    width: 60vw;
-    margin: 0 auto;
-}
-
-.heading2 {
-    font-family: Andrial-Black;
-    font-size: 5rem;
-    margin-bottom: 0;
-}
-
 .rich-text__text > p,
 .paragraph {
     font-size: 2.5rem;
     font-family: Andrial-Medium;
     line-height: 1.3;
+}
+
+.thrive-button.green {
+    background-color: #afd275;
+    transition: background-color 500ms;
+}
+
+.thrive-button.green:hover {
+    background-color: #f2f8e8;
+    color: #afd275;
+}
+
+.thrive-button.blue {
+    background-color: #6cc6be;
+    transition: background-color 500ms;
+}
+
+.thrive-button.blue:hover {
+    background-color: #f2faf9;
+    color: #6cc6be;
 }
 
 @media (max-width: 1700px) {
@@ -293,13 +302,6 @@
 
     .icons > div {
         width: 100%;
-    }
-}
-
-@media (max-width: 850px) {
-    .thrive-container {
-        width: 85vw;
-        margin: 0 auto;
     }
 }
 

@@ -674,8 +674,17 @@
         "image-iced-vanilla-chai-product-info": {
           "label": "Iced Vanilla Chai Product Info Image"
         },
+        "image-product-icon": {
+          "label": "Product Icon"
+        },
         "image-product-action-shot": {
           "label": "Product Action Image"
+        },
+        "image-mixed-berries-product-front": {
+          "label": "Mixed Berries Product Front Image"
+        },
+        "image-iced-vanilla-chai-product-front": {
+          "label": "Iced Vanilla Chai Product Front Image"
         }
       },
       "presets": {
