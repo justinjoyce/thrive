@@ -89,7 +89,10 @@
         "image-iced-vanilla-chai-product-back": "shopify:\/\/shop_images\/Thrive-Good-Greens-Iced-Vanilla-Chai-Back.png",
         "image-mixed-berries-product-info": "shopify:\/\/shop_images\/Thrive-Good-Greens-Mixed-Berries-Info.jpg",
         "image-iced-vanilla-chai-product-info": "shopify:\/\/shop_images\/Thrive-Good-Greens-Iced-Vanilla-Chai-Info.jpg",
+        "image-product-icon": "shopify:\/\/shop_images\/Thrive-Plus.png",
         "image-product-action-shot": "shopify:\/\/shop_images\/Thrive-Good-Greens-Action.jpg",
+        "image-mixed-berries-product-front": "shopify:\/\/shop_images\/Thrive-Good-Greens-Mixed-Berries.png",
+        "image-iced-vanilla-chai-product-front": "shopify:\/\/shop_images\/Thrive-Good-Greens-Iced-Vanilla-Chai.png",
         "padding_top": 40,
         "padding_bottom": 0
       }

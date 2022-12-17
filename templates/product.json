@@ -80,24 +80,10 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
-    },
-    "product-good-greens": {
-      "type": "custom-thrive-good-greens",
-      "settings": {
-        "image-product-info-mask": "shopify:\/\/shop_images\/Thrive-Good-Greens-Mask.png",
-        "image-mixed-berries-product-back": "shopify:\/\/shop_images\/Thrive-Good-Greens-Mixed-Berries-Back.png",
-        "image-iced-vanilla-chai-product-back": "shopify:\/\/shop_images\/Thrive-Good-Greens-Iced-Vanilla-Chai-Back.png",
-        "image-mixed-berries-product-info": "shopify:\/\/shop_images\/Thrive-Good-Greens-Mixed-Berries-Info.jpg",
-        "image-iced-vanilla-chai-product-info": "shopify:\/\/shop_images\/Thrive-Good-Greens-Iced-Vanilla-Chai-Info.jpg",
-        "image-product-icon": "shopify:\/\/shop_images\/Thrive-Plus.png",
-        "padding_top": 40,
-        "padding_bottom": 0
-      }
     }
   },
   "order": [
     "main",
-    "product-recommendations",
-    "product-good-greens"
+    "product-recommendations"
   ]
 }

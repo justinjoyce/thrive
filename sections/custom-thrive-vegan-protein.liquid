@@ -19,64 +19,64 @@
 
     {%- if section.settings.image-product-info-mask != blank -%}
 
-    <div class="thrive-info" style="background-image: url('{{ section.settings.image-product-info-mask | image_url }}')">
-      <div class="product-back">
-        <img id="flavor-back" src="{{ section.settings.image-iced-vanilla-chai-product-back | image_url }}" alt="Thrive PlantCo. Good Greens - Iced Vanilla Chai Product Back">
+      <div class="thrive-info" style="background-image: url('{{ section.settings.image-product-info-mask | image_url }}')">
+        <div class="product-back">
+          <img id="flavor-back" src="{{ section.settings.image-iced-vanilla-chai-product-back | image_url }}" alt="Thrive PlantCo. Good Greens - Iced Vanilla Chai Product Back">
+        </div>
+        <div class="info-left">
+          <div>
+            <img src="{{ section.settings.image-product-icon | image_url }}" width="50" height="50" alt="">
+            <h2>Gluten-Free</h2>
+            <p>Soy-free, dairy-free, non-GMO</p>
+          </div>
+          <div>
+            <img src="{{ section.settings.image-product-icon | image_url }}" width="50" height="50" alt="">
+            <h2>47 Premium Superfoods</h2>
+            <p>Boost your daily micronutrient intake for overall health</p>
+          </div>
+        </div>
+        <div class="info-right">
+          <div>
+            <img src="{{ section.settings.image-product-icon | image_url }}" width="50" height="50" alt="">
+            <h2>Environmentally Conscious</h2>
+            <p>This bag is made from 100% recyclable material to cut down on waste</p>
+          </div>
+          <div>
+            <img src="{{ section.settings.image-product-icon | image_url }}" width="50" height="50" alt="">
+            <h2>Natural Ingredients</h2>
+            <p>Naturally sweetened with stevia leaf extract for great taste</p>
+          </div>
+        </div>
       </div>
-      <div class="info-left">
-        <div>
-          <img src="{{ section.settings.image-product-icon | image_url }}" width="50" height="50" alt="">
-          <h2>Gluten-Free</h2>
-          <p>Soy-free, dairy-free, non-GMO</p>
-        </div>
-        <div>
-          <img src="{{ section.settings.image-product-icon | image_url }}" width="50" height="50" alt="">
-          <h2>47 Premium Superfoods</h2>
-          <p>Boost your daily micronutrient intake for overall health</p>
-        </div>
-      </div>
-      <div class="info-right">
-        <div>
-          <img src="{{ section.settings.image-product-icon | image_url }}" width="50" height="50" alt="">
-          <h2>Environmentally Conscious</h2>
-          <p>This bag is made from 100% recyclable material to cut down on waste</p>
-        </div>
-        <div>
-          <img src="{{ section.settings.image-product-icon | image_url }}" width="50" height="50" alt="">
-          <h2>Natural Ingredients</h2>
-          <p>Naturally sweetened with stevia leaf extract for great taste</p>
-        </div>
-      </div>
-    </div>
 
-    <div id="thrive-button-wrapper" class="thrive-product-swap">
-      <button class="thrive-button selected green" data-flavor="iced-vanilla-chai" data-back="{{ section.settings.image-iced-vanilla-chai-product-back | image_url }}" data-info="{{ section.settings.image-iced-vanilla-chai-product-info | image_url }}">Iced Vanilla Chai</button>
-      <button class="thrive-button green" data-flavor="mixed-berries" data-back="{{ section.settings.image-mixed-berries-product-back | image_url }}" data-info="{{ section.settings.image-mixed-berries-product-info | image_url }}">Mixed Berries</button>
-    </div>
-
-    <div class="thrive-product-info">
-      <img id="flavor-info" src="{{ section.settings.image-iced-vanilla-chai-product-info | image_url }}" alt="Thrive PlantCo. Good Greens - Iced Vanilla Chai Product Back">
-    </div>
-
-    <div class="thrive-product-notes">
-      <div>
-        <h2>Provides antioxidants for the maintenance of good health</h2>
+      <div id="thrive-button-wrapper" class="thrive-product-swap">
+        <button class="thrive-button selected green" data-flavor="iced-vanilla-chai" data-back="{{ section.settings.image-iced-vanilla-chai-product-back | image_url }}" data-info="{{ section.settings.image-iced-vanilla-chai-product-info | image_url }}">Iced Vanilla Chai</button>
+        <button class="thrive-button green" data-flavor="mixed-berries" data-back="{{ section.settings.image-mixed-berries-product-back | image_url }}" data-info="{{ section.settings.image-mixed-berries-product-info | image_url }}">Mixed Berries</button>
       </div>
-      <div>
-        <p class="paragraph">Good Greens contains 47 different superfoods to ensure each serving is packed full of micronutrients and antioxidants to promote optimal health and well-being on a daily basis.</p>
-        <p class="paragraph">The list of ingredients may be long, but it's full of familiar items, from fruits and vegetables, to green tea and herbs. The blend of natural ingredients, natural flavors, and stevia leaf extract has been carefully balanced for a great tasting greens product our consumers will want to enjoy as part of their daily routine.</p>
+
+      <div class="thrive-product-info">
+        <img id="flavor-info" src="{{ section.settings.image-iced-vanilla-chai-product-info | image_url }}" alt="Thrive PlantCo. Good Greens - Iced Vanilla Chai Product Back">
       </div>
-    </div>
+
+      <div class="thrive-product-notes">
+        <div>
+          <h2>Provides antioxidants for the maintenance of good health</h2>
+        </div>
+        <div>
+          <p class="paragraph">Good Greens contains 47 different superfoods to ensure each serving is packed full of micronutrients and antioxidants to promote optimal health and well-being on a daily basis.</p>
+          <p class="paragraph">The list of ingredients may be long, but it's full of familiar items, from fruits and vegetables, to green tea and herbs. The blend of natural ingredients, natural flavors, and stevia leaf extract has been carefully balanced for a great tasting greens product our consumers will want to enjoy as part of their daily routine.</p>
+        </div>
+      </div>
 
     {%- endif -%}
 
     {%- if section.settings.image-product-action-shot != blank -%}
 
-    <div class="thrive-action-shot" style="background-image: url('{{ section.settings.image-product-action-shot | image_url }}')">
-      <div>
-        <h2>Protection against the oxidative effects caused by free radicals</h2>
+      <div class="thrive-action-shot" style="background-image: url('{{ section.settings.image-product-action-shot | image_url }}')">
+        <div>
+          <h2>Protection against the oxidative effects caused by free radicals</h2>
+        </div>
       </div>
-    </div>
 
     {%- endif -%}
 
@@ -86,32 +86,35 @@
       </div>
     </div>
 
+    {%- if section.settings.image-iced-vanilla-chai-product-front != blank and section.settings.image-mixed-berries-product-front != blank -%}
 
-    <div class="good-greens-flavors">
-      <h2 class="heading2">2 Delicious Flavours</h2>
-      <p class="paragraph">Naturally Flavoured</p>
-      <div class="thrive-container">
-        <div>
-          <p class="paragraph">Iced Vanilla Chai</p>
-          <img src="{{ section.settings.image-iced-vanilla-chai-product-front | image_url }}" alt="Thrive PlantCo. Good Greens - Iced Vanilla Chai Product Front">
+      <div class="good-greens-flavors">
+        <h2 class="heading2">2 Delicious Flavours</h2>
+        <p class="paragraph">Naturally Flavoured</p>
+        <div class="thrive-container">
+          <div>
+            <p class="paragraph">Iced Vanilla Chai</p>
+            <img src="{{ section.settings.image-iced-vanilla-chai-product-front | image_url }}" alt="Thrive PlantCo. Good Greens - Iced Vanilla Chai Product Front">
+          </div>
+          <div>
+            <p class="paragraph">Mixed Berries</p>
+            <img src="{{ section.settings.image-mixed-berries-product-front | image_url }}" alt="Thrive PlantCo. Good Greens - Iced Vanilla Chai Product Back">s
+          </div>
         </div>
-        <div>
-          <p class="paragraph">Mixed Berries</p>
-          <img src="{{ section.settings.image-mixed-berries-product-front | image_url }}" alt="Thrive PlantCo. Good Greens - Iced Vanilla Chai Product Back">s
+        <div class="thrive-container">
+          <div>
+            <span>100%</span>Vegan
+          </div>
+          <div>
+            <span>0</span>Fillers
+          </div>
+          <div>
+            <span>40</span>Servings
+          </div>
         </div>
       </div>
-      <div class="thrive-container">
-        <div>
-          <span>100%</span>Vegan
-        </div>
-        <div>
-          <span>0</span>Fillers
-        </div>
-        <div>
-          <span>40</span>Servings
-        </div>
-      </div>
-    </div>
+
+    {%- endif -%}
 
     <div class="thrive-reviews">
       <h1>Reviews</h1>
@@ -201,7 +204,7 @@
       "step": 4,
       "unit": "px",
       "label": "t:sections.all.padding.padding_bottom",
-      "default": 52
+      "default": 0
     }
   ],
   "presets": [
