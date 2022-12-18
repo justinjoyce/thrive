@@ -80,10 +80,26 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "5023073b-74c8-4420-aa27-6f02e05f885f": {
+      "type": "custom-thrive-vegan-protein",
+      "settings": {
+        "image-product-info-mask": "shopify:\/\/shop_images\/Thrive-Vegan-Protein-Mask.png",
+        "image-cookie-crumble-product-back": "shopify:\/\/shop_images\/Thrive-Vegan-Protein-Cookie-Crumble-Back.png",
+        "image-chocolate-product-back": "shopify:\/\/shop_images\/Thrive-Vegan-Protein-Chocolate-Back.png",
+        "image-vanilla-product-back": "shopify:\/\/shop_images\/Thrive-Vegan-Protein-Vanilla-Back.png",
+        "image-banana-bread-product-back": "shopify:\/\/shop_images\/Thrive-Vegan-Protein-Banana-Bread-Back.png",
+        "image-product-icon": "shopify:\/\/shop_images\/Thrive-Plus.png",
+        "image-product-action-shot": "shopify:\/\/shop_images\/Thrive-Vegan-Protein-Action.jpg",
+        "image-cookie-crumble-product-front": "shopify:\/\/shop_images\/Thrive-Vegan-Protein-Cookie-Crumble-Front.png",
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
     "main",
-    "product-recommendations"
+    "product-recommendations",
+    "5023073b-74c8-4420-aa27-6f02e05f885f"
   ]
 }
