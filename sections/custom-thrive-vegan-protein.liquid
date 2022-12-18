@@ -2,15 +2,15 @@
 
 {%- style -%}
   .section-{{ section.id }}-padding {
-    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
-    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+  padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
 
   @media screen and (min-width: 750px) {
-    .section-{{ section.id }}-padding {
-      padding-top: {{ section.settings.padding_top }}px;
-      padding-bottom: {{ section.settings.padding_bottom }}px;
-    }
+  .section-{{ section.id }}-padding {
+  padding-top: {{ section.settings.padding_top }}px;
+  padding-bottom: {{ section.settings.padding_bottom }}px;
+  }
   }
 {%- endstyle -%}
 
@@ -21,7 +21,7 @@
 
       <div class="thrive-info" style="background-image: url('{{ section.settings.image-product-info-mask | image_url }}')">
         <div class="product-back">
-          <img id="flavor-back" src="{{ section.settings.image-iced-vanilla-chai-product-back | image_url }}" alt="Thrive PlantCo. Good Greens - Iced Vanilla Chai Product Back">
+          <img id="flavor-back" src="{{ section.settings.image-cookie-crumble-product-back | image_url }}" alt="Thrive PlantCo. Vegan Protein - Product Back">
         </div>
         <div class="info-left">
           <div>
@@ -50,12 +50,12 @@
       </div>
 
       <div id="thrive-button-wrapper" class="thrive-product-swap">
-        <button class="thrive-button selected green" data-flavor="iced-vanilla-chai" data-back="{{ section.settings.image-iced-vanilla-chai-product-back | image_url }}" data-info="{{ section.settings.image-iced-vanilla-chai-product-info | image_url }}">Iced Vanilla Chai</button>
+        <button class="thrive-button selected green" data-flavor="cookie-crumble" data-back="{{ section.settings.image-cookie-crumble-product-back | image_url }}" data-info="{{ section.settings.image-cookie-crumble-product-info | image_url }}">Iced Vanilla Chai</button>
         <button class="thrive-button green" data-flavor="mixed-berries" data-back="{{ section.settings.image-mixed-berries-product-back | image_url }}" data-info="{{ section.settings.image-mixed-berries-product-info | image_url }}">Mixed Berries</button>
       </div>
 
       <div class="thrive-product-info">
-        <img id="flavor-info" src="{{ section.settings.image-iced-vanilla-chai-product-info | image_url }}" alt="Thrive PlantCo. Good Greens - Iced Vanilla Chai Product Back">
+        <img id="flavor-info" src="{{ section.settings.image-cookie-crumble-product-info | image_url }}" alt="Thrive PlantCo. Vegan Protein - Product Back">
       </div>
 
       <div class="thrive-product-notes">
@@ -63,7 +63,7 @@
           <h2>Provides antioxidants for the maintenance of good health</h2>
         </div>
         <div>
-          <p class="paragraph">Good Greens contains 47 different superfoods to ensure each serving is packed full of micronutrients and antioxidants to promote optimal health and well-being on a daily basis.</p>
+          <p class="paragraph">Vegan Protein contains 47 different superfoods to ensure each serving is packed full of micronutrients and antioxidants to promote optimal health and well-being on a daily basis.</p>
           <p class="paragraph">The list of ingredients may be long, but it's full of familiar items, from fruits and vegetables, to green tea and herbs. The blend of natural ingredients, natural flavors, and stevia leaf extract has been carefully balanced for a great tasting greens product our consumers will want to enjoy as part of their daily routine.</p>
         </div>
       </div>
@@ -82,11 +82,11 @@
 
     <div class="thrive-advice">
       <div>
-        <h2>Life is hectic, and it can be a challenge to hit your micronutrients every day - we get it. Good Greens solves this problem, in one simple tablespoon.</h2>
+        <h2>Life is hectic, and it can be a challenge to hit your micronutrients every day - we get it. Vegan Protein solves this problem, in one simple tablespoon.</h2>
       </div>
     </div>
 
-    {%- if section.settings.image-iced-vanilla-chai-product-front != blank and section.settings.image-mixed-berries-product-front != blank -%}
+    {%- if section.settings.image-cookie-crumble-product-front != blank and section.settings.image-mixed-berries-product-front != blank -%}
 
       <div class="good-greens-flavors">
         <h2 class="heading2">2 Delicious Flavours</h2>
@@ -94,11 +94,11 @@
         <div class="thrive-container">
           <div>
             <p class="paragraph">Iced Vanilla Chai</p>
-            <img src="{{ section.settings.image-iced-vanilla-chai-product-front | image_url }}" alt="Thrive PlantCo. Good Greens - Iced Vanilla Chai Product Front">
+            <img src="{{ section.settings.image-cookie-crumble-product-front | image_url }}" alt="Thrive PlantCo. Vegan Protein - FLXX Product Front">
           </div>
           <div>
             <p class="paragraph">Mixed Berries</p>
-            <img src="{{ section.settings.image-mixed-berries-product-front | image_url }}" alt="Thrive PlantCo. Good Greens - Iced Vanilla Chai Product Back">s
+            <img src="{{ section.settings.image-mixed-berries-product-front | image_url }}" alt="Thrive PlantCo. Vegan Protein - FLXX Product Front">
           </div>
         </div>
         <div class="thrive-container">
@@ -148,23 +148,43 @@
     },
     {
       "type": "image_picker",
-      "id": "image-mixed-berries-product-back",
-      "label": "t:sections.custom-thrive-vegan-protein.settings.image-mixed-berries-product-back.label"
+      "id": "image-cookie-crumble-product-back",
+      "label": "t:sections.custom-thrive-vegan-protein.settings.image-cookie-crumble-product-back.label"
     },
     {
       "type": "image_picker",
-      "id": "image-iced-vanilla-chai-product-back",
-      "label": "t:sections.custom-thrive-vegan-protein.settings.image-iced-vanilla-chai-product-back.label"
+      "id": "image-chocolate-product-back",
+      "label": "t:sections.custom-thrive-vegan-protein.settings.image-chocolate-product-back.label"
     },
     {
       "type": "image_picker",
-      "id": "image-mixed-berries-product-info",
-      "label": "t:sections.custom-thrive-vegan-protein.settings.image-mixed-berries-product-info.label"
+      "id": "image-vanilla-product-back",
+      "label": "t:sections.custom-thrive-vegan-protein.settings.image-vanilla-product-back.label"
     },
     {
       "type": "image_picker",
-      "id": "image-iced-vanilla-chai-product-info",
-      "label": "t:sections.custom-thrive-vegan-protein.settings.image-iced-vanilla-chai-product-info.label"
+      "id": "image-banana-bread-product-back",
+      "label": "t:sections.custom-thrive-vegan-protein.settings.image-banana-bread-product-back.label"
+    },
+    {
+      "type": "image_picker",
+      "id": "image-cookie-crumble-product-info",
+      "label": "t:sections.custom-thrive-vegan-protein.settings.image-cookie-crumble-product-info.label"
+    },
+    {
+      "type": "image_picker",
+      "id": "image-chocolate-product-info",
+      "label": "t:sections.custom-thrive-vegan-protein.settings.image-chocolate-product-info.label"
+    },
+    {
+      "type": "image_picker",
+      "id": "image-vanilla-product-info",
+      "label": "t:sections.custom-thrive-vegan-protein.settings.image-vanilla-product-info.label"
+    },
+    {
+      "type": "image_picker",
+      "id": "image-banana-bread-product-info",
+      "label": "t:sections.custom-thrive-vegan-protein.settings.image-banana-bread-product-info.label"
     },
     {
       "type": "image_picker",
@@ -178,13 +198,23 @@
     },
     {
       "type": "image_picker",
-      "id": "image-mixed-berries-product-front",
-      "label": "t:sections.custom-thrive-vegan-protein.settings.image-mixed-berries-product-front.label"
+      "id": "image-cookie-crumble-product-front",
+      "label": "t:sections.custom-thrive-vegan-protein.settings.image-cookie-crumble-product-front.label"
     },
     {
       "type": "image_picker",
-      "id": "image-iced-vanilla-chai-product-front",
-      "label": "t:sections.custom-thrive-vegan-protein.settings.image-iced-vanilla-chai-product-front.label"
+      "id": "image-chocolate-product-front",
+      "label": "t:sections.custom-thrive-vegan-protein.settings.image-chocolate-product-front.label"
+    },
+    {
+      "type": "image_picker",
+      "id": "image-vanilla-product-front",
+      "label": "t:sections.custom-thrive-vegan-protein.settings.image-vanilla-product-front.label"
+    },
+    {
+      "type": "image_picker",
+      "id": "image-banana-bread-product-front",
+      "label": "t:sections.custom-thrive-vegan-protein.settings.image-banana-bread-product-front.label"
     },
     {
       "type": "range",

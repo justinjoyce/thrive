@@ -663,16 +663,16 @@
           "label": "Product Info Background Image"
         },
         "image-mixed-berries-product-back": {
-          "label": "Mixed Berries Product Back Image"
+          "label": "Product Mixed Berries Back Image"
         },
         "image-iced-vanilla-chai-product-back": {
-          "label": "Iced Vanilla Chai Product Back Image"
+          "label": "Product Iced Vanilla Chai Back Image"
         },
         "image-mixed-berries-product-info": {
-          "label": "Mixed Berries Product Info Image"
+          "label": "Product Mixed Berries Info Image"
         },
         "image-iced-vanilla-chai-product-info": {
-          "label": "Iced Vanilla Chai Product Info Image"
+          "label": "Product Iced Vanilla Chai Info Image"
         },
         "image-product-icon": {
           "label": "Product Icon"
@@ -681,10 +681,10 @@
           "label": "Product Action Image"
         },
         "image-mixed-berries-product-front": {
-          "label": "Mixed Berries Product Front Image"
+          "label": "Product Mixed Berries Front Image"
         },
         "image-iced-vanilla-chai-product-front": {
-          "label": "Iced Vanilla Chai Product Front Image"
+          "label": "Product Iced Vanilla Chai Front Image"
         }
       },
       "presets": {
@@ -697,17 +697,29 @@
         "image-product-info-mask": {
           "label": "Product Info Background Image"
         },
-        "image-mixed-berries-product-back": {
-          "label": "Mixed Berries Product Back Image"
+        "image-cookie-crumble-product-back": {
+          "label": " Product Cookie Crumble Back Image"
         },
-        "image-iced-vanilla-chai-product-back": {
-          "label": "Iced Vanilla Chai Product Back Image"
+        "image-chocolate-product-back": {
+          "label": " Product Chocolate Back Image"
         },
-        "image-mixed-berries-product-info": {
-          "label": "Mixed Berries Product Info Image"
+        "image-vanilla-product-back": {
+          "label": " Product Vanilla Back Image"
         },
-        "image-iced-vanilla-chai-product-info": {
-          "label": "Iced Vanilla Chai Product Info Image"
+        "image-banana-bread-product-back": {
+          "label": " Product Banana Bread Back Image"
+        },
+        "image-cookie-crumble-product-info": {
+          "label": " Product Cookie Crumble Info Image"
+        },
+        "image-chocolate-product-info": {
+          "label": " Product Chocolate Info Image"
+        },
+        "image-vanilla-product-info": {
+          "label": " Product Vanilla Info Image"
+        },
+        "image-banana-bread-product-info": {
+          "label": " Product Banana Bread Info Image"
         },
         "image-product-icon": {
           "label": "Product Icon"
@@ -715,11 +727,17 @@
         "image-product-action-shot": {
           "label": "Product Action Image"
         },
-        "image-mixed-berries-product-front": {
-          "label": "Mixed Berries Product Front Image"
+        "image-cookie-crumble-product-front": {
+          "label": " Product Cookie Crumble Front Image"
         },
-        "image-iced-vanilla-chai-product-front": {
-          "label": "Iced Vanilla Chai Product Front Image"
+        "image-chocolate-product-front": {
+          "label": " Product Chocolate Front Image"
+        },
+        "image-vanilla-product-front": {
+          "label": " Product Vanilla Front Image"
+        },
+        "image-banana-bread-product-front": {
+          "label": " Product Banana Bread Front Image"
         }
       },
       "presets": {
