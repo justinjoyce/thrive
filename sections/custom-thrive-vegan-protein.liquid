@@ -27,12 +27,12 @@
           <div>
             <img src="{{ section.settings.image-product-icon | image_url }}" width="50" height="50" alt="">
             <h2>Gluten-Free</h2>
-            <p>Soy-free, dairy-free, non-GMO</p>
+            <p>Soy-free, dairy-free, cholesterol-free, non-GMO</p>
           </div>
           <div>
             <img src="{{ section.settings.image-product-icon | image_url }}" width="50" height="50" alt="">
-            <h2>47 Premium Superfoods</h2>
-            <p>Boost your daily micronutrient intake for overall health</p>
+            <h2>Minimal Ingredients</h2>
+            <p>Naturally flavored and free of artificial sweeteners to aid digestion</p>
           </div>
         </div>
         <div class="info-right">
@@ -43,15 +43,17 @@
           </div>
           <div>
             <img src="{{ section.settings.image-product-icon | image_url }}" width="50" height="50" alt="">
-            <h2>Natural Ingredients</h2>
-            <p>Naturally sweetened with stevia leaf extract for great taste</p>
+            <h2>Organic Protein</h2>
+            <p>Golden pea protein isolate is highly bio-available to support muscle growth</p>
           </div>
         </div>
       </div>
 
       <div id="thrive-button-wrapper" class="thrive-product-swap">
-        <button class="thrive-button selected green" data-flavor="cookie-crumble" data-back="{{ section.settings.image-cookie-crumble-product-back | image_url }}" data-info="{{ section.settings.image-cookie-crumble-product-info | image_url }}">Iced Vanilla Chai</button>
-        <button class="thrive-button green" data-flavor="mixed-berries" data-back="{{ section.settings.image-mixed-berries-product-back | image_url }}" data-info="{{ section.settings.image-mixed-berries-product-info | image_url }}">Mixed Berries</button>
+        <button class="thrive-button selected blue" data-flavor="cookie-crumble" data-back="{{ section.settings.image-cookie-crumble-product-back | image_url }}" data-info="{{ section.settings.image-cookie-crumble-product-info | image_url }}">Cookie Crumble</button>
+        <button class="thrive-button blue" data-flavor="chocolate" data-back="{{ section.settings.image-chocolate-product-back | image_url }}" data-info="{{ section.settings.image-chocolate-product-info | image_url }}">Chocolate</button>
+        <button class="thrive-button blue" data-flavor="vanilla" data-back="{{ section.settings.image-vanilla-product-back | image_url }}" data-info="{{ section.settings.image-vanilla-product-info | image_url }}">Vanilla</button>
+        <button class="thrive-button blue" data-flavor="banana-bread" data-back="{{ section.settings.image-banana-bread-product-back | image_url }}" data-info="{{ section.settings.image-banana-bread-product-info | image_url }}">Banana Bread</button>
       </div>
 
       <div class="thrive-product-info">
@@ -60,11 +62,10 @@
 
       <div class="thrive-product-notes">
         <div>
-          <h2>Provides antioxidants for the maintenance of good health</h2>
+          <h2>Assists in the repair and building of lean muscle tissue when combined with regular exercise and a healthy balanced diet.</h2>
         </div>
         <div>
-          <p class="paragraph">Vegan Protein contains 47 different superfoods to ensure each serving is packed full of micronutrients and antioxidants to promote optimal health and well-being on a daily basis.</p>
-          <p class="paragraph">The list of ingredients may be long, but it's full of familiar items, from fruits and vegetables, to green tea and herbs. The blend of natural ingredients, natural flavors, and stevia leaf extract has been carefully balanced for a great tasting greens product our consumers will want to enjoy as part of their daily routine.</p>
+          <p class="paragraph">Each serving of Vegan Protein yields an impressive 25g of protein derived from a single source of protein - organic golden pea protein isolate. Pea protein isolate is highly bio-available as it is easily digested and absorbed by the body. In fact, studies have found pea protein isolate to have a digestion rate upwards of 90%. It has also been found to perform equally well for muscle growth and retention when compared to whey protein.</p>
         </div>
       </div>
 
@@ -74,7 +75,7 @@
 
       <div class="thrive-action-shot" style="background-image: url('{{ section.settings.image-product-action-shot | image_url }}')">
         <div>
-          <h2>Protection against the oxidative effects caused by free radicals</h2>
+          <h2>A source of protein & amino acids for maintenance of good health</h2>
         </div>
       </div>
 
@@ -82,39 +83,52 @@
 
     <div class="thrive-advice">
       <div>
-        <h2>Life is hectic, and it can be a challenge to hit your micronutrients every day - we get it. Vegan Protein solves this problem, in one simple tablespoon.</h2>
+        <h2>Each batch is rigorously tested for purity and protein concentration, to ensure each scoop delivers exactly what is listed on the label. You'll find no fillers or amino acid spiking here!</h2>
       </div>
     </div>
 
-    {%- if section.settings.image-cookie-crumble-product-front != blank and section.settings.image-mixed-berries-product-front != blank -%}
-
-      <div class="good-greens-flavors">
-        <h2 class="heading2">2 Delicious Flavours</h2>
-        <p class="paragraph">Naturally Flavoured</p>
-        <div class="thrive-container">
-          <div>
-            <p class="paragraph">Iced Vanilla Chai</p>
-            <img src="{{ section.settings.image-cookie-crumble-product-front | image_url }}" alt="Thrive PlantCo. Vegan Protein - FLXX Product Front">
-          </div>
-          <div>
-            <p class="paragraph">Mixed Berries</p>
-            <img src="{{ section.settings.image-mixed-berries-product-front | image_url }}" alt="Thrive PlantCo. Vegan Protein - FLXX Product Front">
-          </div>
+    <div class="good-greens-flavors">
+      <h2 class="heading2">2 Delicious Flavours</h2>
+      <p class="paragraph">Naturally Flavoured</p>
+      <div class="thrive-container">
+        {%- if section.settings.image-cookie-crumble-product-front != blank -%}
+        <div>
+          <p class="paragraph">Cookie Crumble</p>
+          <img src="{{ section.settings.image-cookie-crumble-product-front | image_url }}" alt="Thrive PlantCo. Vegan Protein - Cookie Crumble Product Front">
         </div>
-        <div class="thrive-container">
+        {%- endif -%}
+        {%- if section.settings.image-chocolate-product-front != blank -%}
+        <div>
+          <p class="paragraph">Chocolate</p>
+          <img src="{{ section.settings.image-chocolate-product-front | image_url }}" alt="Thrive PlantCo. Vegan Protein - Chocolate Product Front">
+        </div>
+        {%- endif -%}
+        {%- if section.settings.image-vanilla-product-front != blank -%}
           <div>
-            <span>100%</span>Vegan
+            <p class="paragraph">Vanilla</p>
+            <img src="{{ section.settings.image-vanilla-product-front | image_url }}" alt="Thrive PlantCo. Vegan Protein - Vanilla Product Front">
           </div>
+        {%- endif -%}
+        {%- if section.settings.image-banana-bread-product-front != blank -%}
           <div>
-            <span>0</span>Fillers
+            <p class="paragraph">Vanilla</p>
+            <img src="{{ section.settings.image-banana-bread-product-front | image_url }}" alt="Thrive PlantCo. Vegan Protein - Banana Bread Product Front">
           </div>
-          <div>
-            <span>40</span>Servings
-          </div>
+        {%- endif -%}
+      </div>
+      <div class="thrive-container">
+        <div>
+          <span>25G</span>Vegan Protein
+        </div>
+        <div>
+          <span>0G</span>Sugar
+        </div>
+        <div>
+          <span>20</span>Servings
         </div>
       </div>
-
-    {%- endif -%}
+      <p><small>* Chocolate contains 1 g of naturally occurring sugar from the cocoa</small></p>
+    </div>
 
     <div class="thrive-reviews">
       <h1>Reviews</h1>
