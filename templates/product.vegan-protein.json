@@ -81,7 +81,7 @@
         "padding_bottom": 28
       }
     },
-    "cb1cfde8-5685-4cba-8c65-c66b21505cc2": {
+    "5023073b-74c8-4420-aa27-6f02e05f885f": {
       "type": "custom-thrive-vegan-protein",
       "settings": {
         "image-product-info-mask": "shopify:\/\/shop_images\/Thrive-Vegan-Protein-Mask.png",
@@ -107,6 +107,6 @@
   "order": [
     "main",
     "product-recommendations",
-    "cb1cfde8-5685-4cba-8c65-c66b21505cc2"
+    "5023073b-74c8-4420-aa27-6f02e05f885f"
   ]
 }
