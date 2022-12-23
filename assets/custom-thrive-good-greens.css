@@ -100,8 +100,8 @@
 }
 
 .thrive-product-info {
-    margin: 75px 0;
-    text-align: center;
+    width: 60vw;
+    margin: 0 auto 75px;
 }
 
 #flavor-info {
@@ -306,6 +306,7 @@
     }
 
     .thrive-reviews > div {
+
         gap: 30px;
         width: 95vw;
     }
@@ -320,14 +321,48 @@
 
     .thrive-info {
         grid-template-columns: 1fr 1fr 4fr 1fr 1fr;
+        height: 60vw;
+    }
+
+    .thrive-info > div > div > img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .thrive-info > .info-left > div > h2,
+    .thrive-info > .info-right > div > h2 {
+        font-size: 3rem;
+        line-height: 1;
+    }
+
+    .thrive-info > .info-left > div > p,
+    .thrive-info > .info-right > div > p {
+        font-size: 1.8rem;
+        line-height: 1;
     }
 
     .thrive-info > .product-back > img {
         top: 9%;
     }
+
+    .thrive-product-swap {
+        margin: 75px 0;
+    }
+
+    .thrive-product-info {
+        width: 100vw;
+        margin: 0 auto 75px;
+    }
+
 }
 
 @media (max-width: 800px) {
+
+    .thrive-info {
+        grid-template-columns: 1fr 2fr 6fr 2fr 1fr;
+        height: 55vw;
+    }
+
     .thrive-action-shot {
         height: 45vh;
     }
@@ -341,9 +376,113 @@
         font-size: 3rem;
     }
 
+    .thrive-container {
+        width: 85vw;
+    }
+
     .thrive-reviews > div {
         gap: 50px;
         width: 90vw;
         flex-direction: column;
+    }
+}
+
+@media (max-width: 650px) {
+
+    .thrive-info {
+        grid-template-columns: 1fr 1fr 6fr 1fr 1fr;
+        height: 60vw;
+    }
+
+    .thrive-info > div > div > img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .thrive-info > .info-left > div > h2,
+    .thrive-info > .info-right > div > h2 {
+        font-size: 2.4rem;
+    }
+
+    .thrive-info > .info-right > div:nth-child(1),
+    .thrive-info > .info-right > div:nth-child(2) {
+        left: -20px;
+    }
+
+    .thrive-info > .info-right > div:nth-child(1) > img,
+    .thrive-info > .info-right > div:nth-child(2) > img {
+        left: -40px;
+    }
+
+    .thrive-info > .info-left > div > p,
+    .thrive-info > .info-right > div > p {
+        font-size: 1.2rem;
+    }
+
+    .thrive-action-shot > div > h2,
+    .thrive-advice > div > h2 {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 550px) {
+    .thrive-product-notes {
+        flex-direction: column;
+    }
+
+    .thrive-product-notes > div:nth-child(1),
+    .thrive-product-notes > div:nth-child(2) {
+        width: 100%;
+    }
+
+    .good-greens-flavors > div:nth-child(3) > div > p {
+        font-size: 2.6rem;
+        line-height: 1;
+        margin-bottom: 10px;
+        min-height: 53px;
+    }
+}
+
+@media (max-width: 500px) {
+    .thrive-info > .info-left,
+    .thrive-info > .info-right {
+        gap: 30px;
+    }
+
+    .thrive-info > .info-left > div > h2,
+    .thrive-info > .info-right > div > h2 {
+        font-size: 1.4rem;
+    }
+
+    .thrive-info > .info-left > div > p,
+    .thrive-info > .info-right > div > p {
+        font-size: 1rem;
+    }
+
+    .thrive-product-swap {
+        margin: 75px 10vw;
+    }
+
+    .thrive-product-swap .thrive-button {
+        width: 100%;
+        margin-bottom: 12px;
+    }
+
+    .good-greens-flavors > div:nth-child(4) {
+        gap: 20px;
+    }
+
+    .good-greens-flavors > div:nth-child(4) > div > span {
+        font-size: 4rem;
+        margin-bottom: -30px;
+    }
+
+    .good-greens-flavors > div:nth-child(4) > div {
+        font-size: 2.4rem;
+    }
+
+    .thrive-action-shot > div > h2,
+    .thrive-advice > div > h2 {
+        font-size: 2.4rem;
     }
 }

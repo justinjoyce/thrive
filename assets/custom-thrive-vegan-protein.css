@@ -90,8 +90,8 @@
 }
 
 .thrive-product-info {
-    margin: 75px 0;
-    text-align: center;
+    width: 60vw;
+    margin: 0 auto 75px;
 }
 
 #flavor-info {
@@ -284,6 +284,10 @@
 
     .good-greens-flavors > div:nth-child(4) > div {
         font-size: 3rem;
+    }
+
+    .thrive-container {
+        width: 90vw;
     }
 
     .thrive-reviews > div {
