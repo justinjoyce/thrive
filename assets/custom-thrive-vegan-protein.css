@@ -42,13 +42,28 @@
 }
 
 .thrive-info > div.info-left > div:nth-child(1) {
-    left: 5px;
+    left: 55px;
     top: -20px;
 }
 
+.thrive-info > .info-left > div:nth-child(1) >  img {
+    position: absolute;
+    right: 15px;
+}
+
+.thrive-info > .info-left > div:nth-child(1) > h2,
+.thrive-info > .info-left > div:nth-child(1) > p {
+    width: 75%;
+}
+
 .thrive-info > div.info-left > div:nth-child(2) {
-    left: 20px;
+    left: 8px;
     bottom: -120px;
+}
+
+.thrive-info > .info-left > div:nth-child(2) >  img {
+    position: absolute;
+    right: -53px;
 }
 
 .thrive-info > .info-right > div:nth-child(1) {
@@ -58,11 +73,6 @@
 .thrive-info > .info-right > div:nth-child(2) {
     left: -50px;
     bottom: -50px;
-}
-
-.thrive-info > .info-left > div >  img {
-    position: absolute;
-    right: -35px;
 }
 
 .thrive-info > .info-left > div > h2,
@@ -92,36 +102,34 @@
 .thrive-product-info {
     width: 60vw;
     margin: 0 auto 75px;
+    display: flex;
+    gap: 20px;
 }
 
 #flavor-info {
     width: 100%;
+    position: relative;
+    top: -25px;
 }
 
-.thrive-product-notes {
-    width: 50vw;
-    margin: 0 auto 75px;
-    display: flex;
-    gap: 30px;
+.thrive-product-info > div:nth-child(1) {
+    width: 55%;
 }
 
-.thrive-product-notes > div:nth-child(1) {
+.thrive-product-info > div:nth-child(2) {
     width: 45%;
 }
 
-.thrive-product-notes > div:nth-child(1) > h2 {
-    color: #afd275;
+.thrive-product-info > div:nth-child(2) > h2 {
+    color: #6cc6be;
     font-family: Andrial-Bold, serif;
     font-size: 4rem;
     margin: 0;
 }
 
-.thrive-product-notes > div:nth-child(2) {
-    width: 55%;
-}
-
 .thrive-action-shot {
     background-size: cover;
+    background-position: top;
     height: 75vh;
 }
 
@@ -129,7 +137,7 @@
     width: 50vw;
     margin: 0 auto 75px;
     position: relative;
-    top: 20%;
+    top: 50%;
 }
 
 .thrive-action-shot > div > h2 {
@@ -160,44 +168,44 @@
     margin: 0;
 }
 
-.good-greens-flavors {
+.thrive-flavors {
     text-align: center;
     margin-bottom: 100px;
 }
 
-.good-greens-flavors > div:nth-child(3) {
+.thrive-flavors > div:nth-child(3) {
     display: flex;
     justify-content: space-evenly;
 }
 
-.good-greens-flavors > div:nth-child(3) > div {
+.thrive-flavors > div:nth-child(3) > div {
     width: 50%;
 }
 
-.good-greens-flavors > div:nth-child(3) > div > img {
+.thrive-flavors > div:nth-child(3) > div > img {
     width: 100%;
 }
 
-.good-greens-flavors > div:nth-child(3) > div > p {
+.thrive-flavors > div:nth-child(3) > div > p {
     font-family: Andrial-Black, serif;
     font-size: 3rem;
     margin-bottom: 20px;
 }
 
-.good-greens-flavors > div:nth-child(4) {
+.thrive-flavors > div:nth-child(4) {
     display: flex;
     justify-content: space-evenly;
     gap: 50px;
 }
 
-.good-greens-flavors > div:nth-child(4) > div {
+.thrive-flavors > div:nth-child(4) > div {
     font-family: Andrial-ExtraBold, serif;
     font-size: 5rem;
     text-align: center;
     color: #231f20;
 }
 
-.good-greens-flavors > div:nth-child(4) > div > span{
+.thrive-flavors > div:nth-child(4) > div > span {
     font-size: 14rem;
     display: block;
     margin-bottom: -100px;
@@ -259,7 +267,45 @@
     background: #6cc6be !important;
 }
 
+@media (max-width: 1550px) {
+    .thrive-info > div.info-left > div:nth-child(1),
+    .thrive-info > div.info-left > div:nth-child(2) {
+        left: 0;
+        top: 0;
+    }
+
+    .thrive-info > .info-left > div:nth-child(1) > img,
+    .thrive-info > .info-left > div:nth-child(2) > img {
+        right: -20px;
+    }
+
+    .thrive-info > .info-right {
+        position: relative;
+        left: 30px;
+    }
+
+    .thrive-info > .info-right > div:nth-child(1),
+    .thrive-info > .info-right > div:nth-child(2) {
+        left: 0;
+        top: 0;
+    }
+
+    .thrive-info > .info-right > div:nth-child(1) > img,
+    .thrive-info > .info-right > div:nth-child(2) > img {
+        position: absolute;
+        left: -55px;
+    }
+}
+
 @media (max-width: 1350px) {
+    .thrive-info {
+        grid-template-columns: 2fr 1fr 4fr 1fr 2fr;
+    }
+
+    .thrive-product-info {
+        width: 90vw;
+    }
+
     .thrive-reviews > div {
         gap: 30px;
         width: 95vw;
@@ -267,32 +313,183 @@
 }
 
 @media (max-width: 1000px) {
-    .thrive-product-notes {
+    .thrive-action-shot > div,
+    .thrive-advice > div {
         width: 90vw;
     }
 
-    .thrive-advice > div {
-        width: 85vw;
+    .thrive-info {
+        grid-template-columns: 1fr 1fr 4fr 1fr 1fr;
+        height: 60vw;
+    }
+
+    .thrive-info > div > div > img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .thrive-info > .info-left > div > h2,
+    .thrive-info > .info-right > div > h2 {
+        font-size: 3rem;
+        line-height: 1;
+    }
+
+    .thrive-info > .info-left > div > p,
+    .thrive-info > .info-right > div > p {
+        font-size: 1.8rem;
+        line-height: 1;
+    }
+
+    .thrive-info > .product-back > img {
+        top: 9%;
+    }
+
+    .thrive-product-swap {
+        margin: 75px 0;
+    }
+
+    .thrive-product-info {
+        width: 95vw;
     }
 }
 
 @media (max-width: 800px) {
-    .good-greens-flavors > div:nth-child(4) > div > span {
+
+    .thrive-container {
+        width: 85vw;
+    }
+
+    .thrive-info {
+        grid-template-columns: 1fr 2fr 6fr 2fr 1fr;
+        height: 55vw;
+    }
+
+    .thrive-action-shot {
+        height: 45vh;
+    }
+
+    .thrive-flavors > div:nth-child(4) > div > span {
         font-size: 7rem;
         margin-bottom: -45px;
     }
 
-    .good-greens-flavors > div:nth-child(4) > div {
+    .thrive-flavors > div:nth-child(4) > div {
         font-size: 3rem;
     }
 
-    .thrive-container {
+    .thrive-product-info {
+        flex-direction: column;
         width: 90vw;
+    }
+
+    .thrive-product-info > div:nth-child(1),
+    .thrive-product-info > div:nth-child(2) {
+        width: 100%;
     }
 
     .thrive-reviews > div {
         gap: 50px;
         width: 90vw;
         flex-direction: column;
+    }
+}
+
+@media (max-width: 650px) {
+
+    .thrive-info {
+        grid-template-columns: 1fr 1fr 6fr 1fr 1fr;
+        height: 60vw;
+    }
+
+    .thrive-info > div > div > img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .thrive-info > .info-left > div > h2,
+    .thrive-info > .info-right > div > h2 {
+        font-size: 2.4rem;
+    }
+
+    .thrive-info > .info-right > div:nth-child(1),
+    .thrive-info > .info-right > div:nth-child(2) {
+        left: -20px;
+    }
+
+    .thrive-info > .info-right > div:nth-child(1) > img,
+    .thrive-info > .info-right > div:nth-child(2) > img {
+        left: -40px;
+    }
+
+    .thrive-info > .info-left > div > p,
+    .thrive-info > .info-right > div > p {
+        font-size: 1.2rem;
+    }
+
+    .thrive-action-shot > div > h2,
+    .thrive-advice > div > h2 {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 550px) {
+    .thrive-product-notes {
+        flex-direction: column;
+    }
+
+    .thrive-product-notes > div:nth-child(1),
+    .thrive-product-notes > div:nth-child(2) {
+        width: 100%;
+    }
+
+    .thrive-flavors > div:nth-child(3) > div > p {
+        font-size: 2.6rem;
+        line-height: 1;
+        margin-bottom: 10px;
+        min-height: 53px;
+    }
+}
+
+@media (max-width: 500px) {
+    .thrive-info > .info-left,
+    .thrive-info > .info-right {
+        gap: 30px;
+    }
+
+    .thrive-info > .info-left > div > h2,
+    .thrive-info > .info-right > div > h2 {
+        font-size: 1.4rem;
+    }
+
+    .thrive-info > .info-left > div > p,
+    .thrive-info > .info-right > div > p {
+        font-size: 1rem;
+    }
+
+    .thrive-product-swap {
+        margin: 75px 10vw;
+    }
+
+    .thrive-product-swap .thrive-button {
+        width: 100%;
+        margin-bottom: 12px;
+    }
+
+    .thrive-flavors > div:nth-child(4) {
+        gap: 20px;
+    }
+
+    .thrive-flavors > div:nth-child(4) > div > span {
+        font-size: 4rem;
+        margin-bottom: -30px;
+    }
+
+    .thrive-flavors > div:nth-child(4) > div {
+        font-size: 2.4rem;
+    }
+
+    .thrive-action-shot > div > h2,
+    .thrive-advice > div > h2 {
+        font-size: 2.4rem;
     }
 }

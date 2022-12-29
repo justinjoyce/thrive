@@ -66,6 +66,7 @@
 }
 
 .article-template__title {
+  font-family: Andrial-Bold;
   margin: 0;
 }
 
@@ -90,6 +91,11 @@
 .article-template__content {
   margin-top: 3rem;
   margin-bottom: 3rem;
+}
+
+.article-template__content > p {
+  font-family: Andrial-DemiBold, serif;
+  font-size: 2rem;
 }
 
 .article-template__social-sharing {

@@ -4,35 +4,52 @@
 
 {%- style -%}
   .section-{{ section.id }}-padding {
-    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
-    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+  padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
 
   @media screen and (min-width: 750px) {
-    .section-{{ section.id }}-padding {
-      padding-top: {{ section.settings.padding_top }}px;
-      padding-bottom: {{ section.settings.padding_bottom }}px;
-    }
+  .section-{{ section.id }}-padding {
+  padding-top: {{ section.settings.padding_top }}px;
+  padding-bottom: {{ section.settings.padding_bottom }}px;
+  }
   }
 {%- endstyle -%}
 
-{%- paginate blog.articles by 6 -%}
-  <div class="main-blog page-width section-{{ section.id }}-padding">
-    <h1 class="title--primary">{{ blog.title | escape }}</h1>
+{% assign blog_item = 1 %}
 
-    <div class="blog-articles {% if section.settings.layout == 'collage' %}blog-articles--collage{% endif %}">
+{%- paginate blog.articles by 7 -%}
+  <div class="main-blog page-width section-{{ section.id }}-padding">
+
+    {% if paginate.current_page == 1 %}
+      {% assign title_class = ' feature' %}
+    {% else %}
+      {% assign title_class = '' %}
+    {% endif %}
+
+    <h1 class="title--primary{{ title_class }}">{{ blog.title | escape }}</h1>
+
+    <div class="blog-articles">
       {%- for article in blog.articles -%}
-        <div class="blog-articles__article article">
+
+        {% if blog_item == 1 and paginate.current_page == 1 %}
+          {% assign article_class = ' feature' %}
+        {% else %}
+          {% assign article_class = '' %}
+        {% endif %}
+
+        <div class="blog-articles__article article{{ article_class }}">
           {%- render 'article-card',
-            article: article,
-            media_height: section.settings.image_height,
-            media_aspect_ratio: article.image.aspect_ratio,
-            show_image: section.settings.show_image,
-            show_date: section.settings.show_date,
-            show_author: section.settings.show_author,
-            show_excerpt: true 
+                  article: article,
+                  media_height: section.settings.image_height,
+                  media_aspect_ratio: article.image.aspect_ratio,
+                  show_image: section.settings.show_image,
+                  show_date: section.settings.show_date,
+                  show_author: section.settings.show_author,
+                  show_excerpt: true
           -%}
         </div>
+        {% assign blog_item = blog_item | plus: 1 %}
       {%- endfor -%}
     </div>
 
@@ -51,23 +68,6 @@
     {
       "type": "header",
       "content": "t:sections.main-blog.settings.header.content"
-    },
-    {
-      "type": "select",
-      "id": "layout",
-      "options": [
-        {
-          "value": "grid",
-          "label": "t:sections.main-blog.settings.layout.options__1.label"
-        },
-        {
-          "value": "collage",
-          "label": "t:sections.main-blog.settings.layout.options__2.label"
-        }
-      ],
-      "default": "collage",
-      "label": "t:sections.main-blog.settings.layout.label",
-      "info": "t:sections.main-blog.settings.layout.info"
     },
     {
       "type": "checkbox",
