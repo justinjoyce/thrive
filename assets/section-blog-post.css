@@ -239,8 +239,27 @@
 }
 
 @media screen and (max-width: 925px) {
-  .article-flex > div + img {
-    margin-top: auto;
-    margin-bottom: auto;
+  .article-flex {
+    flex-direction: column;
+  }
+
+  .article-flex.below {
+    margin-top: 20px;
+  }
+
+  .article-flex div {
+    width: 100%;
+  }
+
+  .article-flex img {
+    width: 100%;
+    height: 300px !important;
+    object-fit: cover;
+    margin-top: 20px;
+  }
+
+  .article-splash {
+    margin: 15px -45px 0;
+    padding: 30px 45px 30px;
   }
 }
