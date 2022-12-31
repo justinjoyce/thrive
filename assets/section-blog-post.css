@@ -40,6 +40,11 @@
 }
 
 @media screen and (min-width: 990px) {
+  .article-template__content {
+    max-width: 85rem;
+    padding: 0;
+  }
+
   .article-template__hero-small {
     height: 27.5rem;
   }
@@ -93,7 +98,7 @@
   margin-bottom: 3rem;
 }
 
-.article-template__content > p {
+.article-template__content p {
   font-family: Andrial-DemiBold, serif;
   font-size: 2rem;
 }
@@ -117,6 +122,11 @@
     margin-top: 6rem;
     padding: 3.6rem 0;
   }
+}
+
+.article-template__content h2 {
+  font-family: Andrial-Bold;
+  font-size: 3rem;
 }
 
 .article-template__comment-wrapper h2 {
@@ -178,4 +188,59 @@
 
 .article-template__back:last-child {
   margin-bottom: 3.2rem;
+}
+
+.article-flex {
+  display: flex; gap: 30px;
+}
+
+.article-flex.below {
+  margin-top: 75px;
+}
+
+.article-flex div {
+  width: 50%;
+}
+
+.article-flex img {
+  background-size: cover;
+}
+
+.article-flex.below img {
+  margin-top: -75px;
+}
+
+.article-splash {
+  color: #fff;
+  margin: -75px -45px;
+  padding: 75px 45px 100px;
+}
+
+.article-splash.blue {
+  background: #6cc6be;
+}
+
+.article-splash h2 {
+  color: #fff;
+}
+
+.article-splash ul {
+  font-family: Andrial-DemiBold;
+  font-size: 2rem;
+}
+
+.article-divide {
+  width: 35%;
+  height: 8px;
+}
+
+.article-divide.blue {
+  background: #6cc6be;
+}
+
+@media screen and (max-width: 925px) {
+  .article-flex > div + img {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
 }
