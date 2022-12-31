@@ -7,6 +7,15 @@
         "padding_bottom": 36
       }
     },
+    "4a6d9548-8289-4812-8402-2782a6bc3a00": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "Hi Bibiana!!!!",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "form": {
       "type": "contact-form",
       "settings": {
@@ -20,6 +29,7 @@
   },
   "order": [
     "main",
+    "4a6d9548-8289-4812-8402-2782a6bc3a00",
     "form"
   ]
 }
