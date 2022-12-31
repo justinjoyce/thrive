@@ -10,7 +10,7 @@
     "4a6d9548-8289-4812-8402-2782a6bc3a00": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"page-width page-width--narrow\">\n    <div style=\"display: flex; gap: 50px;\">\n        <div style=\"width: 50%;\">Location<\/div>\n        <div style=\"width: 50%;\">Email<\/div>\n    <\/div>\n<\/div>",
+        "custom_liquid": "<div class=\"page-width page-width--narrow\">\n    <div style=\"display: flex; gap: 50px;\">\n        <div style=\"width: 50%;\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/7349\/9712\/files\/thrive-directions.png?v=1672507014\" alt style=\"float: left; margin-right: 15px;\">Location: 55 Some Drive, Canada<\/div>\n        <div style=\"width: 50%;\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/7349\/9712\/files\/thrive-email.png?v=1672507014\" alt style=\"float: left; margin-right: 15px;\">Email: <a href=\"mailto:hello@thriveplantco.com\">hello@thriveplantco.com<\/a><\/div>\n    <\/div>\n<\/div>",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
