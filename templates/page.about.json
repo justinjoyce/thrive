@@ -12,6 +12,10 @@
       "type": "custom-thrive-about",
       "settings": {
         "image-about-banner": "shopify:\/\/shop_images\/Thirve-Yoga-Banner.jpg",
+        "image-about-windmill": "shopify:\/\/shop_images\/Thrive-Windmills.jpg",
+        "image-about-highlight": "shopify:\/\/shop_images\/Thrive-NoScoop.png",
+        "image-about-joggers": "shopify:\/\/shop_images\/Thrive-Joggers.jpg",
+        "image-about-surfer": "shopify:\/\/shop_images\/Thrive-Surfer.jpg",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
