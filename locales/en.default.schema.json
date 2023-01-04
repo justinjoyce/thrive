@@ -656,6 +656,29 @@
         "name": "Custom Thrive"
       }
     },
+    "custom-thrive-about": {
+      "name": "Custom Thrive About",
+      "settings": {
+        "image-about-banner": {
+          "label": "Banner Image"
+        },
+        "image-about-windmill": {
+          "label": "Windmill Image"
+        },
+        "image-about-highlight": {
+          "label": "Button Highlight Image"
+        },
+        "image-about-joggers": {
+          "label": "Jogging Image"
+        },
+        "image-about-surfer": {
+          "label": "Surfer Image"
+        }
+      },
+      "presets": {
+        "name": "Custom Thrive About"
+      }
+    },
     "custom-thrive-good-greens": {
       "name": "Custom Thrive Good Greens",
       "settings": {
