@@ -219,13 +219,6 @@
 }
 
 /* Shared Styles */
-.rich-text__text > p,
-.paragraph {
-    font-size: 2.5rem;
-    font-family: Andrial-Medium;
-    line-height: 1.3;
-}
-
 .thrive-button.green {
     background-color: #afd275;
     transition: background-color 500ms;

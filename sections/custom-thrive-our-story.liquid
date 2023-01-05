@@ -25,60 +25,55 @@
       </div>
     {%- endif -%}
 
-    <div class="thrive-container">
+    <div class="thrive-container center">
       <p class="paragraph">Thrive Plant Co. is a Canadian-based company focused on providing healthful supplements with an environmentally friendly approach</p>
       <p class="paragraph">Our products contain an optimal blend of scientifically effective, natural ingredients that work harmoniously together to support a healthy lifestyle and overall well-being. Recognizing the importance that purity plays in optimizing the function of the body, our products are simple and straightforward with familiar ingredients to fuel people in a healthy way.</p>
       <p class="paragraph">Founded by Canadians, Thrive Plant Co. is proud to be bringing Canadian-made products to local retailers across our nation.</p>
     </div>
 
     {%- if section.settings.image-our-story-windmill != blank -%}
-      <div class="no-scoop">
-        <div class="thrive-container">
-          <div>
-            <h1>Healthy People in a Healthy Environment</h1>
-            <img src="{{ section.settings.image-our-story-windmill | image_url }}" alt="Wind Turbines">
-          </div>
-          <div>
-            <div>
-              <p class="paragraph">We are seeing a shift in the nutritional supplement market with consumers who are more health-and-environmentally-conscious. Thrive Plant Co. makes both factors a priority with our products.</p>
-              <p class="paragraph">In an effort to reduce the strain on our environment, we opted to utilize bags for our products. Their flexibility allows for a greater quantity to be shipped per carton, in comparison to traditional plastic tubs, which significantly reduces the carbon emissions footprint during transportation.</p>
-            </div>
-            <div>
-              <p class="paragraph">Additionally, we have gone scoop-free to reduce the amount of plastic waste going into our system. For customer convenience, the serving sizes for our products are listed in tablespoons - a simple measurement tool found in all kitchens.</p>
-              <p class="paragraph">Our team is continually seeking new ways we can minimize our impact on the environment, whether that's through improving our packaging or raising awareness through our social platform.</p>
-            </div>
-          </div>
-
-        </div>
+      <div class="our-environment">
+        <img src="{{ section.settings.image-our-story-windmill | image_url }}" alt="Wind Turbines">
+        <h1>Healthy<br>People<br>in a Healthy<br>Environment</h1>
       </div>
     {%- endif -%}
 
+    <div class="thrive-container flex">
+      <div>
+        <p class="paragraph">We are seeing a shift in the nutritional supplement market with consumers who are more health-and-environmentally-conscious. Thrive Plant Co. makes both factors a priority with our products.</p>
+        <p class="paragraph">In an effort to reduce the strain on our environment, we opted to utilize bags for our products. Their flexibility allows for a greater quantity to be shipped per carton, in comparison to traditional plastic tubs, which significantly reduces the carbon emissions footprint during transportation.</p>
+      </div>
+      <div>
+        <p class="paragraph">Additionally, we have gone scoop-free to reduce the amount of plastic waste going into our system. For customer convenience, the serving sizes for our products are listed in tablespoons - a simple measurement tool found in all kitchens.</p>
+        <p class="paragraph">Our team is continually seeking new ways we can minimize our impact on the environment, whether that's through improving our packaging or raising awareness through our social platform.</p>
+      </div>
+    </div>
+
     {%- if section.settings.image-our-story-highlight != blank -%}
       <div class="no-scoop">
-        <div class="thrive-container">
-          <div>
-            <img src="{{ section.settings.image-our-story-highlight | image_url }}" alt="Thrive No Plastic Scoop Notice">
-          </div>
-        </div>
+          <img src="{{ section.settings.image-our-story-highlight | image_url }}" alt="Thrive No Plastic Scoop Notice">
       </div>
     {%- endif -%}
 
     {%- if section.settings.image-our-story-joggers != blank and section.settings.image-our-story-surfer != blank -%}
-      <div class="learn-more">
+      <div class="our-gallery">
         <div>
-          <div>
-            <div>
-              <img src="{{ section.settings.image-our-story-joggers | image_url }}" alt="People jogging">
-              <img src="{{ section.settings.image-our-story-surfer | image_url }}" alt="Surfer on the water">
-            </div>
-            <div>
-              <p class="paragraph">Our products contain an optimal blend of scientifically effective, natural ingredients that work harmoniously together to support a healthy lifestyle and overall well-being. Recognizing the importance that purity plays in optimizing the function of the body, our products are simple and straightforward with familiar ingredients to fuel people in a healthy way.</p>
-              <a href=""><button class="thrive-button green">Learn More</button></a>
-            </div>
+          <div class="stack-top">
+            <img src="{{ section.settings.image-our-story-joggers | image_url }}" alt="People jogging">
+          </div>
+          <div class="stack-bottom">
+            <img src="{{ section.settings.image-our-story-surfer | image_url }}" alt="Surfer on the water">
           </div>
         </div>
       </div>
     {%- endif -%}
+
+    <div class="thrive-container center">
+      <h2>Being environmentally friendly will always be a priority for Thrive Plant Co.</h2>
+      <p class="paragraph">Recognizing the impact that manufacturing can have on the environment, we are proud to be working with Rootree on our packaging</p>
+      <p class="paragraph">Through Bullfrog Power, renewable electricity is put back into the grid to match what was used during manufacturing. These green energy sources are derived from both wind and low-impact hydro power.</p>
+      <p class="paragraph">This outside-of-the-box thinking is something Thrive Plant Co. loves and fully supports.</p>
+    </div>
 
   </div>
 </div>
