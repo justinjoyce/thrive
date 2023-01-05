@@ -164,7 +164,7 @@
       "settings": {
         "type_header_font": {
           "label": "Font",
-          "info": "Selecting a different font can affect the speed of your store. [Learn more about system fonts.](https:\/\/help.shopify.com\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)"
+          "info": "Selecting a different font can affect the speed of your store. [Learn more story system fonts.](https:\/\/help.shopify.com\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)"
         },
         "heading_scale": {
           "label": "Font size scale"
@@ -177,7 +177,7 @@
         },
         "type_body_font": {
           "label": "Font",
-          "info": "Selecting a different font can affect the speed of your store. [Learn more about system fonts.](https:\/\/help.shopify.com\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)"
+          "info": "Selecting a different font can affect the speed of your store. [Learn more story system fonts.](https:\/\/help.shopify.com\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)"
         },
         "body_scale": {
           "label": "Font size scale"
@@ -656,27 +656,27 @@
         "name": "Custom Thrive"
       }
     },
-    "custom-thrive-about": {
-      "name": "Custom Thrive About",
+    "custom-thrive-our-story": {
+      "name": "Custom Thrive Our Story",
       "settings": {
-        "image-about-banner": {
+        "image-our-story-banner": {
           "label": "Banner Image"
         },
-        "image-about-windmill": {
+        "image-our-story-windmill": {
           "label": "Windmill Image"
         },
-        "image-about-highlight": {
+        "image-our-story-highlight": {
           "label": "Button Highlight Image"
         },
-        "image-about-joggers": {
+        "image-our-story-joggers": {
           "label": "Jogging Image"
         },
-        "image-about-surfer": {
+        "image-our-story-surfer": {
           "label": "Surfer Image"
         }
       },
       "presets": {
-        "name": "Custom Thrive About"
+        "name": "Custom Thrive Our Story"
       }
     },
     "custom-thrive-good-greens": {
@@ -1001,7 +1001,7 @@
         },
         "header": {
           "content": "Media",
-          "info": "Learn more about [media types](https:\/\/help.shopify.com\/manual\/products\/product-media)"
+          "info": "Learn more story [media types](https:\/\/help.shopify.com\/manual\/products\/product-media)"
         },
         "media_position": {
           "label": "Desktop media position",
@@ -2137,7 +2137,7 @@
       "settings": {
         "header": {
           "content": "Media",
-          "info": "Learn more about [media types.](https:\/\/help.shopify.com\/manual\/products\/product-media)"
+          "info": "Learn more story [media types.](https:\/\/help.shopify.com\/manual\/products\/product-media)"
         },
         "enable_sticky_info": {
           "label": "Enable sticky content on desktop"

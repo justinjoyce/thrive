@@ -1,4 +1,4 @@
-{{ 'custom-thrive-about.css' | asset_url | stylesheet_tag }}
+{{ 'custom-thrive-our-story.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
   .section-{{ section.id }}-padding {
@@ -17,12 +17,12 @@
 <div class="color-{{ section.settings.color_scheme }} gradient">
   <div class="section-{{ section.id }}-padding">
 
-    {%- if section.settings.image-about-banner != blank -%}
-    <div class="top-feature">
-      <div style="background-image: url({{ section.settings.image-about-banner | image_url }})">
-        <h1>We Want Everyone To Thrive</h1>
+    {%- if section.settings.image-our-story-banner != blank -%}
+      <div class="top-feature">
+        <div style="background-image: url({{ section.settings.image-our-story-banner | image_url }})">
+          <h1>We Want Everyone To Thrive</h1>
+        </div>
       </div>
-    </div>
     {%- endif -%}
 
     <div class="thrive-container">
@@ -31,12 +31,12 @@
       <p class="paragraph">Founded by Canadians, Thrive Plant Co. is proud to be bringing Canadian-made products to local retailers across our nation.</p>
     </div>
 
-    {%- if section.settings.image-about-windmill != blank -%}
+    {%- if section.settings.image-our-story-windmill != blank -%}
       <div class="no-scoop">
         <div class="thrive-container">
           <div>
             <h1>Healthy People in a Healthy Environment</h1>
-            <img src="{{ section.settings.image-about-windmill | image_url }}" alt="Wind Turbines">
+            <img src="{{ section.settings.image-our-story-windmill | image_url }}" alt="Wind Turbines">
           </div>
           <div>
             <div>
@@ -53,23 +53,23 @@
       </div>
     {%- endif -%}
 
-    {%- if section.settings.image-about-highlight != blank -%}
+    {%- if section.settings.image-our-story-highlight != blank -%}
       <div class="no-scoop">
         <div class="thrive-container">
           <div>
-            <img src="{{ section.settings.image-about-highlight | image_url }}" alt="Thrive No Plastic Scoop Notice">
+            <img src="{{ section.settings.image-our-story-highlight | image_url }}" alt="Thrive No Plastic Scoop Notice">
           </div>
         </div>
       </div>
     {%- endif -%}
 
-    {%- if section.settings.image-about-joggers != blank and section.settings.image-about-surfer != blank -%}
+    {%- if section.settings.image-our-story-joggers != blank and section.settings.image-our-story-surfer != blank -%}
       <div class="learn-more">
         <div>
           <div>
             <div>
-              <img src="{{ section.settings.image-about-joggers | image_url }}" alt="People jogging">
-              <img src="{{ section.settings.image-about-surfer | image_url }}" alt="Surfer on the water">
+              <img src="{{ section.settings.image-our-story-joggers | image_url }}" alt="People jogging">
+              <img src="{{ section.settings.image-our-story-surfer | image_url }}" alt="Surfer on the water">
             </div>
             <div>
               <p class="paragraph">Our products contain an optimal blend of scientifically effective, natural ingredients that work harmoniously together to support a healthy lifestyle and overall well-being. Recognizing the importance that purity plays in optimizing the function of the body, our products are simple and straightforward with familiar ingredients to fuel people in a healthy way.</p>
@@ -85,34 +85,34 @@
 
 {% schema %}
 {
-  "name": "t:sections.custom-thrive-about.name",
+  "name": "t:sections.custom-thrive-our-story.name",
   "tag": "section",
   "class": "section",
   "settings": [
     {
       "type": "image_picker",
-      "id": "image-about-banner",
-      "label": "t:sections.custom-thrive-about.settings.image-about-banner.label"
+      "id": "image-our-story-banner",
+      "label": "t:sections.custom-thrive-our-story.settings.image-our-story-banner.label"
     },
     {
       "type": "image_picker",
-      "id": "image-about-windmill",
-      "label": "t:sections.custom-thrive-about.settings.image-about-windmill.label"
+      "id": "image-our-story-windmill",
+      "label": "t:sections.custom-thrive-our-story.settings.image-our-story-windmill.label"
     },
     {
       "type": "image_picker",
-      "id": "image-about-highlight",
-      "label": "t:sections.custom-thrive-about.settings.image-about-highlight.label"
+      "id": "image-our-story-highlight",
+      "label": "t:sections.custom-thrive-our-story.settings.image-our-story-highlight.label"
     },
     {
       "type": "image_picker",
-      "id": "image-about-joggers",
-      "label": "t:sections.custom-thrive-about.settings.image-about-joggers.label"
+      "id": "image-our-story-joggers",
+      "label": "t:sections.custom-thrive-our-story.settings.image-our-story-joggers.label"
     },
     {
       "type": "image_picker",
-      "id": "image-about-surfer",
-      "label": "t:sections.custom-thrive-about.settings.image-about-surfer.label"
+      "id": "image-our-story-surfer",
+      "label": "t:sections.custom-thrive-our-story.settings.image-our-story-surfer.label"
     },
     {
       "type": "select",
@@ -169,7 +169,7 @@
   ],
   "presets": [
     {
-      "name": "t:sections.custom-thrive-about.presets.name"
+      "name": "t:sections.custom-thrive-our-story.presets.name"
     }
   ]
 }
