@@ -33,6 +33,8 @@
   grid-column: 1 / span 2;
   position:relative;
   margin: 100px 0 75px;
+  border-bottom: 7px solid #6cc6be;
+  padding-bottom: 81px;
 }
 
 .article.feature:before {

@@ -1346,6 +1346,7 @@ span.price-item {
 .product-media-container {
   width: 100%;
   max-width: calc(100% - calc(var(--media-border-width) * 2));
+  border: unset;
 }
 
 @media screen and (min-width: 750px) {
