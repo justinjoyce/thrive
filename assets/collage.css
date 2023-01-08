@@ -18,7 +18,7 @@
 @media screen and (max-width: 749px) {
   .collage {
     grid-column-gap: var(--grid-mobile-horizontal-spacing);
-    grid-row-gap: var(--grid-mobile-vertical-spacing);
+    grid-row-gap: 50px;
   }
 
   .collage--mobile {
