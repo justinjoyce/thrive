@@ -142,7 +142,7 @@
         "type": "header",
         "settings": {
           "color_scheme": "background-1",
-          "logo": "shopify:\/\/shop_images\/logo-dark.jpg",
+          "logo": "shopify:\/\/shop_images\/thrive-logo.jpg",
           "logo_width": 180,
           "logo_position": "middle-left",
           "menu": "main-menu",
@@ -164,7 +164,6 @@
             "settings": {
               "heading": "",
               "menu": "footer",
-              "image": "shopify:\/\/shop_images\/Thrive_Footer_logo.png",
               "image_width": 150
             }
           },
