@@ -177,6 +177,10 @@
     margin-bottom: 100px;
 }
 
+.thrive-flavors > p {
+    margin-bottom: 45px;
+}
+
 .thrive-flavors > div:nth-child(3) {
     display: flex;
     justify-content: space-evenly;
@@ -193,7 +197,9 @@
 .thrive-flavors > div:nth-child(3) > div > p {
     font-family: Andrial-Black, serif;
     font-size: 3rem;
-    margin-bottom: 20px;
+    line-height: 0.9em;
+    min-height: 65px;
+    margin-bottom: 0;
 }
 
 .thrive-flavors > div:nth-child(4) {
@@ -203,13 +209,14 @@
 }
 
 .thrive-flavors > div:nth-child(4) > div {
-    font-family: Andrial-ExtraBold, serif;
+    font-family: Andrial-Regular, serif;
     font-size: 5rem;
     text-align: center;
     color: #231f20;
 }
 
 .thrive-flavors > div:nth-child(4) > div > span {
+    font-family: Andrial-ExtraBold, serif;
     font-size: 14rem;
     display: block;
     margin-bottom: -100px;
@@ -306,6 +313,15 @@
         width: 90vw;
     }
 
+    .thrive-flavors > div:nth-child(4) > div {
+        line-height: 0.9em;
+    }
+
+    .thrive-flavors > div:nth-child(4) > div > span {
+        line-height: 2.5em;
+    }
+
+
     .thrive-reviews > div {
         gap: 30px;
         width: 95vw;
@@ -395,7 +411,6 @@
 }
 
 @media (max-width: 650px) {
-
     .thrive-info {
         grid-template-columns: 1fr 1fr 6fr 1fr 1fr;
         height: 60vw;
@@ -430,6 +445,16 @@
     .thrive-advice > div > h2 {
         font-size: 3rem;
     }
+
+    .thrive-flavors > div:nth-child(3) {
+        flex-wrap: wrap;
+    }
+
+    .thrive-flavors > div:nth-child(3) > div:nth-child(3),
+    .thrive-flavors > div:nth-child(3) > div:nth-child(4) {
+        margin-top: 50px;
+    }
+
 }
 
 @media (max-width: 550px) {
@@ -444,8 +469,7 @@
 
     .thrive-flavors > div:nth-child(3) > div > p {
         font-size: 2.6rem;
-        line-height: 1;
-        margin-bottom: 10px;
+        line-height: 0.9em;
         min-height: 53px;
     }
 }
