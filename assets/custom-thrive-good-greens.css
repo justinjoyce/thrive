@@ -1,3 +1,7 @@
+#MainContent {
+    overflow-x: hidden;
+}
+
 .thrive-info {
     display: grid;
     grid-template-columns: 2fr 1fr 3fr 1fr 2fr;
@@ -480,5 +484,11 @@
     .thrive-action-shot > div > h2,
     .thrive-advice > div > h2 {
         font-size: 2.4rem;
+    }
+
+    .thrive-product-notes > div:nth-child(1) > h2 {
+        font-size: 3.6rem;
+        line-height: 1em;
+        margin-bottom: 10px;
     }
 }
