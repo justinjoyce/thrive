@@ -23,3 +23,36 @@
   width: 52.5rem;
   height: 52.5rem;
 }
+
+.thrive-contact > div {
+  display: flex;
+  gap: 50px;
+}
+
+.thrive-contact > div > div {
+  width: 50%;
+  font-family: 'Andrial-Black';
+}
+
+.thrive-contact > div > div > img {
+  float: left;
+  margin-right: 15px;
+  position: relative;
+  top: -7px;
+}
+
+.thrive-contact > div > div > h2 {
+  margin: 0;
+  font-family: 'Andrial-Bold';
+}
+
+@media screen and (max-width: 600px) {
+  .thrive-contact > div {
+    flex-direction: column;
+    gap: 35px;
+  }
+
+  .thrive-contact > div > div {
+    width: 100%;
+  }
+}

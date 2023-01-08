@@ -10,7 +10,7 @@
     "4a6d9548-8289-4812-8402-2782a6bc3a00": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"page-width page-width--narrow\">\n    <div style=\"display: flex; gap: 50px;\">\n        <div style=\"width: 50%;\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/7349\/9712\/files\/thrive-directions.png?v=1672507014\" alt style=\"float: left; margin-right: 15px;\"><h2 style=\"margin:0\">Location:<\/h2>Elora, Ontario, Canada<\/div>\n        <div style=\"width: 50%;\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/7349\/9712\/files\/thrive-email.png?v=1672507014\" alt style=\"float: left; margin-right: 15px;\"><h2 style=\"margin:0\">Email:<\/h2><a href=\"mailto:hello@thriveplantco.com\">hello@thriveplantco.com<\/a><\/div>\n    <\/div>\n<\/div>",
+        "custom_liquid": "<div class=\"page-width page-width--narrow thrive-contact\">\n    <div>\n        <div>\n            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/7349\/9712\/files\/thrive-directions.png?v=1672507014\" alt><h2>Location:<\/h2>Elora, Ontario, Canada\n        <\/div>\n        <div>\n            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0669\/7349\/9712\/files\/thrive-email.png?v=1672507014\" alt><h2>Email:<\/h2><a href=\"mailto:hello@thriveplantco.com\">hello@thriveplantco.com<\/a>\n        <\/div>\n    <\/div>\n<\/div>",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
