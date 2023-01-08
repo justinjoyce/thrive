@@ -35,7 +35,7 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/thrive-homepage.jpg",
+        "image": "shopify:\/\/shop_images\/thrive-homepage-banner.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": false,
@@ -116,18 +116,6 @@
     "c739328a-ad6e-463c-ab5d-ac26005b58aa": {
       "type": "custom-thrive",
       "settings": {
-        "image-feature-top": "shopify:\/\/shop_images\/Thrive-Get-Ready.jpg",
-        "image-product-top": "shopify:\/\/shop_images\/Top-Product.png",
-        "image-product-multi": "shopify:\/\/shop_images\/Multi-Product.png",
-        "image-icon-1": "shopify:\/\/shop_images\/Thrive-Icon-1.png",
-        "image-icon-2": "shopify:\/\/shop_images\/Thrive-Icon-2.png",
-        "image-icon-3": "shopify:\/\/shop_images\/Thrive-Icon-3.png",
-        "image-icon-4": "shopify:\/\/shop_images\/Thrive-Icon-4.png",
-        "image-product-bottom": "shopify:\/\/shop_images\/Bottom_Product.png",
-        "image-product-small-top": "shopify:\/\/shop_images\/Thrive-Good-Greens-Mixed-Berries.png",
-        "image-product-small-bottom": "shopify:\/\/shop_images\/Thrive-Good-Greens-Iced-Vanilla-Chai.png",
-        "image-button-highlight": "shopify:\/\/shop_images\/Thrive-NoScoop.png",
-        "image-feature-bottom": "shopify:\/\/shop_images\/Thrive-Yoga.jpg",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
