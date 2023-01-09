@@ -110,7 +110,7 @@
         "aaf5849e-6059-4231-88b9-e8cd0485e472": {
           "type": "shopify:\/\/apps\/yotpo-product-photo-reviews\/blocks\/reviews\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
           "settings": {
-            "product": "{{product}}"
+            "product": "good-greens"
           }
         }
       },
