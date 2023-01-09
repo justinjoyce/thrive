@@ -110,7 +110,7 @@
         "c29fcdf7-487b-466c-bacd-6271e3e65cb4": {
           "type": "shopify:\/\/apps\/yotpo-product-photo-reviews\/blocks\/reviews\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
           "settings": {
-            "product": "{{product}}"
+            "product": "vegan-protein"
           }
         }
       },
