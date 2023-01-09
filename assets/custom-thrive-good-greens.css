@@ -227,6 +227,23 @@
     font-family: Andrial-Black, serif;
     font-size: 8rem;
     text-align: center;
+    margin-bottom:  -25px;
+}
+
+#shopify-section-template--17495341629737__16732284129508a648 {
+    background-color: #f4f4f4;
+}
+
+#yotpo-title-text {
+    color: #afd275 !important;
+}
+
+#yotpo-main-widget-btn {
+    background-color: #afd275 !important;
+}
+
+.yotpo-head {
+    display: none;
 }
 
 /* Shared */
