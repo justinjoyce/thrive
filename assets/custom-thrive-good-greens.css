@@ -229,13 +229,6 @@
     text-align: center;
 }
 
-.thrive-reviews > div {
-    display: flex;
-    gap: 50px;
-    width: 65vw;
-    margin: 0 auto;
-}
-
 /* Shared */
 .thrive-container {
     width: 60vw;
@@ -303,12 +296,6 @@
 @media (max-width: 1350px) {
     .thrive-info {
         grid-template-columns: 2fr 1fr 4fr 1fr 2fr;
-    }
-
-    .thrive-reviews > div {
-
-        gap: 30px;
-        width: 95vw;
     }
 }
 
@@ -378,12 +365,6 @@
 
     .thrive-flavors > div:nth-child(4) > div {
         font-size: 3rem;
-    }
-
-    .thrive-reviews > div {
-        gap: 50px;
-        width: 90vw;
-        flex-direction: column;
     }
 }
 
