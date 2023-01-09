@@ -234,7 +234,7 @@
     background-color: #f4f4f4;
 }
 
-#yotpo-title-text {
+.yotpo-title-text {
     color: #afd275 !important;
 }
 
@@ -243,7 +243,7 @@
 }
 
 .yotpo-head {
-    display: none;
+    display: none !important;
 }
 
 /* Shared */

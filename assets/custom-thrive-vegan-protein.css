@@ -239,7 +239,7 @@ shopify-section-template--17495341695273__1673232463fac6e79d {
 }
 
 .yotpo-head {
-    display: none;
+    display: none !important;
 }
 
 /* Shared */
