@@ -7,23 +7,9 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
-    },
-    "4ba21b16-1cd4-4dfc-8e81-04d6e29b5715": {
-      "type": "custom-thrive-our-story",
-      "settings": {
-        "image-our-story-banner": "shopify:\/\/shop_images\/Thirve-Yoga-Banner.jpg",
-        "image-our-story-windmill": "shopify:\/\/shop_images\/Thrive-Windmills.jpg",
-        "image-our-story-highlight": "shopify:\/\/shop_images\/Thrive-NoScoop.png",
-        "image-our-story-joggers": "shopify:\/\/shop_images\/Thrive-Joggers.jpg",
-        "image-our-story-surfer": "shopify:\/\/shop_images\/Thrive-Surfer.jpg",
-        "color_scheme": "background-1",
-        "padding_top": 0,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
-    "main",
-    "4ba21b16-1cd4-4dfc-8e81-04d6e29b5715"
+    "main"
   ]
 }
