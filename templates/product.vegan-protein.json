@@ -106,17 +106,6 @@
     },
     "1673232463fac6e79d": {
       "type": "apps",
-      "blocks": {
-        "c29fcdf7-487b-466c-bacd-6271e3e65cb4": {
-          "type": "shopify:\/\/apps\/yotpo-product-photo-reviews\/blocks\/reviews\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
-          "settings": {
-            "product": "vegan-protein"
-          }
-        }
-      },
-      "block_order": [
-        "c29fcdf7-487b-466c-bacd-6271e3e65cb4"
-      ],
       "settings": {
         "include_margins": true
       }

@@ -106,17 +106,6 @@
     },
     "16732284129508a648": {
       "type": "apps",
-      "blocks": {
-        "aaf5849e-6059-4231-88b9-e8cd0485e472": {
-          "type": "shopify:\/\/apps\/yotpo-product-photo-reviews\/blocks\/reviews\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
-          "settings": {
-            "product": "good-greens"
-          }
-        }
-      },
-      "block_order": [
-        "aaf5849e-6059-4231-88b9-e8cd0485e472"
-      ],
       "settings": {
         "include_margins": true
       }
