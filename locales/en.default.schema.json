@@ -656,6 +656,15 @@
         "name": "Custom Thrive"
       }
     },
+    "custom-thrive-faq": {
+      "name": "Custom Thrive FAQ",
+      "settings": {
+
+      },
+      "presets": {
+        "name": "Custom Thrive FAQ"
+      }
+    },
     "custom-thrive-our-story": {
       "name": "Custom Thrive Our Story",
       "settings": {
