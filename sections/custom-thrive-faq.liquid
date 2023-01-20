@@ -1,0 +1,203 @@
+{{ 'custom-thrive-faq.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+  padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+  padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+  .section-{{ section.id }}-padding {
+  padding-top: {{ section.settings.padding_top }}px;
+  padding-bottom: {{ section.settings.padding_bottom }}px;
+  }
+  }
+{%- endstyle -%}
+
+<div class="color-{{ section.settings.color_scheme }} gradient">
+  <div class="section-{{ section.id }}-padding">
+
+    <div class="thrive-faq">
+      <h1>Frequently Asked Questions</h1>
+    </div>
+
+    <div class="thrive-container center closing-statement">
+      <p class="paragraph">At Thrive Plant Co., we want to do everything we can to ensure that you have a great shopping experience and love our products. To help you feel confident in your purchase, we have put together a list of frequently asked questions. If you have a question that isn't answered below, please feel free to <a href="/pages/contact">email us</a> - our team is happy to help</p>
+    </div>
+
+    <div class="thrive-container">
+
+      <hr>
+
+      <nav class="accordion arrows">
+
+        <header class="box">
+          <label for="acc-close" class="box-title">Ordering</label>
+        </header>
+
+        <input type="radio" name="accordion" id="cb1"/>
+        <section class="box">
+          <label class="box-title" for="cb1">What methods of payment do you accept?</label>
+          <label class="box-close" for="acc-close"></label>
+          <div class="box-content">
+            <p class="paragraph">Our site is hosted with Shopify using SSL certificates to encrypt our store's content with HTTPS instead of just HTTP. Shopify is PCI level 1 compliant for credit-card processing, which means that it adheres to the highest standards of server compliance.</p>
+          </div>
+        </section>
+
+        <input type="radio" name="accordion" id="cb2"/>
+        <section class="box">
+          <label class="box-title" for="cb2">Is your site secure?</label>
+          <label class="box-close" for="acc-close"></label>
+          <div class="box-content">
+            <p class="paragraph">Shopify's compliance covers all six PCI standard categories and applies to every store using their platform, which includes the following:</p>
+            <ol>
+              <li>Maintaining a safe network.</li>
+              <li>Credit card data protection.</li>
+              <li>Maintaining a vulnerability management program.</li>
+              <li>Implementing strong access control measures.</li>
+              <li>Regularly monitoring and testing networks.</li>
+              <li>Maintaining an information security policy.</li>
+            </ol>
+          </div>
+        </section>
+
+        <header class="box">
+          <label for="acc-close" class="box-title">Shipping</label>
+        </header>
+
+        <input type="radio" name="accordion" id="cb3"/>
+        <section class="box">
+          <label class="box-title" for="cb3">How much is shipping?</label>
+          <label class="box-close" for="acc-close"></label>
+          <div class="box-content">
+            <p class="paragraph">Shipping is FREE within Canada for orders over $69 before taxes and after discount/promo codes. We provide trackable shipping and orders are shipped via Canada Post Expedited Service. We currently only ship within Canada. We currently do not accept international orders. We reserve the right to refuse any order.</p>
+          </div>
+        </section>
+
+        <input type="radio" name="accordion" id="cb4"/>
+        <section class="box">
+          <label class="box-title" for="cb4">When will I receive my order?</label>
+          <label class="box-close" for="acc-close"></label>
+          <div class="box-content">
+            <p class="paragraph">Deliveries made within Canada can take 2 to 7 business days, depending on where you live in the country. Weekends and holidays do not count as shipping days.</p>
+          </div>
+        </section>
+
+        <input type="radio" name="accordion" id="cb5"/>
+        <section class="box">
+          <label class="box-title" for="cb5">Where does my order ship from?</label>
+          <label class="box-close" for="acc-close"></label>
+          <div class="box-content">
+            <p class="paragraph">Orders ship from our fulfillment center in Windsor, Ontario, Canada.</p>
+          </div>
+        </section>
+
+        <input type="radio" name="accordion" id="cb6"/>
+        <section class="box">
+          <label class="box-title" for="cb6">How can I track my order?</label>
+          <label class="box-close" for="acc-close"></label>
+          <div class="box-content">
+            <p class="paragraph">Tracking information will be emailed to you after your order has shipped. You will also receive real-time shipping updates and tracking information via email.</p>
+          </div>
+        </section>
+
+        <input type="radio" name="accordion" id="cb7"/>
+        <section class="box">
+          <label class="box-title" for="cb7">Do I have to pay sales tax?</label>
+          <label class="box-close" for="acc-close"></label>
+          <div class="box-content">
+            <p class="paragraph">Yes, all orders are subject to a 5% GST, 9.975% QST or 13-15% HST depending on which province you live.</p>
+          </div>
+        </section>
+
+        <header class="box">
+          <label for="acc-close" class="box-title">Return Policy</label>
+        </header>
+
+        <input type="radio" name="accordion" id="cb8"/>
+        <section class="box">
+          <label class="box-title" for="cb8">What is your return policy?</label>
+          <label class="box-close" for="acc-close"></label>
+          <div class="box-content">
+            <p class="paragraph">Please contact us at <a href="mailto:refunds@thriveplantco.com">refunds@thriveplantco.com</a> to start the return process. We will not refund orders unless we are first contacted. This allows us to review the problem and determine how to best address the issues. Please be sure to include your order number in your email.
+            </p>
+            <p class="paragraph">Returns must be made within 30 days of purchase and all products must be SEALED. A refund will be issued less the postage incurred by us from the selected shipper whether the order was over or under $69 and the return postage incurred to us by the selected courier. Your return is also subjected to a 15%restocking fee.</p>
+            <p class="paragraph">For any damages, please take a picture and forward it to us in your email for our review. Please be sure to include your order number.</p>
+            <p class="paragraph">It will take 4 - 6 business days to process a return after it arrives at our distribution center. You will receive an email confirmation once your return has been received.</p>
+          </div>
+        </section>
+
+        <input type="radio" name="accordion" id="acc-close"/>
+
+      </nav>
+    </div>
+
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "t:sections.custom-thrive-faq.name",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "select",
+      "id": "color_scheme",
+      "options": [
+        {
+          "value": "accent-1",
+          "label": "t:sections.all.colors.accent_1.label"
+        },
+        {
+          "value": "accent-2",
+          "label": "t:sections.all.colors.accent_2.label"
+        },
+        {
+          "value": "background-1",
+          "label": "t:sections.all.colors.background_1.label"
+        },
+        {
+          "value": "background-2",
+          "label": "t:sections.all.colors.background_2.label"
+        },
+        {
+          "value": "inverse",
+          "label": "t:sections.all.colors.inverse.label"
+        }
+      ],
+      "default": "background-1",
+      "label": "t:sections.all.colors.label"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 52
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:sections.custom-thrive-faq.presets.name"
+    }
+  ]
+}
+{% endschema %}
