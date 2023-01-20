@@ -11,9 +11,9 @@
     position: relative;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: right;
-    height: 90vh;
-    width: 80%;
+    background-position: bottom;
+    height: 75vh;
+    width: 100%;
 }
 
 .top-product {
@@ -253,10 +253,7 @@
 
 @media (max-width: 1400px) {
     .top-feature > div {
-        background-size: contain;
-        background-position: left;
         height: 70vh;
-        width: unset;
     }
 
     .icons > div {
