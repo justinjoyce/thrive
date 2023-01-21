@@ -462,7 +462,12 @@
     .bottom-product > div > div:nth-child(1) > div > div:nth-child(2) {
         font-size: 6rem;
     }
+
     .no-scoop > div > h1 {
         font-size: 5rem;
+    }
+
+    .no-scoop > div > div:nth-child(2) > img {
+        margin: 0 -8px;
     }
 }
