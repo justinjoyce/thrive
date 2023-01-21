@@ -10,7 +10,7 @@
     grid-auto-flow: row;
     grid-template-areas:
     ". info-left product-back info-right .";
-    background: #afd275 center;
+    background: #99c45b center;
     height: 50vw;
 }
 
@@ -124,7 +124,7 @@
 }
 
 .thrive-product-notes > div:nth-child(1) > h2 {
-    color: #afd275;
+    color: #99c45b;
     font-family: Andrial-Bold, serif;
     font-size: 4rem;
     margin: 0;
@@ -156,7 +156,7 @@
 }
 
 .thrive-advice {
-    background: #afd275;
+    background: #99c45b;
     height: 40vh;
     display: grid;
     place-items: center;
@@ -235,11 +235,11 @@
 }
 
 .yotpo-title-text {
-    color: #afd275 !important;
+    color: #99c45b !important;
 }
 
 #yotpo-main-widget-btn {
-    background-color: #afd275 !important;
+    background-color: #99c45b !important;
 }
 
 .yotpo-head {
@@ -257,17 +257,17 @@
 }
 
 .thrive-button.green:is(.selected) {
-    background-color: #afd275;
+    background-color: #99c45b;
     transition: background-color 500ms;
 }
 
 .thrive-button.green:not(.selected) {
-    color: #afd275;
+    color: #99c45b;
 }
 
 .thrive-button.green:not(.selected):hover {
     background-color: #f2f8e8;
-    color: #afd275;
+    color: #99c45b;
 }
 
 /* Overrides */
@@ -277,7 +277,7 @@
 }
 
 .footer:before {
-    background: #afd275 !important;
+    background: #99c45b !important;
 }
 
 @media (max-width: 1550px) {

@@ -93,7 +93,7 @@
 }
 
 .bottom-product {
-    background: #afd275;
+    background: #99c45b;
 }
 
 .bottom-product > div {
@@ -220,13 +220,13 @@
 
 /* Shared Styles */
 .thrive-button.green {
-    background-color: #afd275;
+    background-color: #99c45b;
     transition: background-color 500ms;
 }
 
 .thrive-button.green:hover {
     background-color: #f2f8e8;
-    color: #afd275;
+    color: #99c45b;
 }
 
 .thrive-button.blue {
