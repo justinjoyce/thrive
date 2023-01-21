@@ -167,7 +167,7 @@
 }
 
 .no-scoop > div > h1 {
-    font-family: Andrial-Black;
+    font-family: Andrial-ExtraBold, serif;
     text-transform: uppercase;
     font-size: 11rem;
     word-break: keep-all;
@@ -177,7 +177,8 @@
 }
 
 .no-scoop > div > div:nth-child(2) > img {
-    max-width: 100%;
+    width: 100%;
+    margin: 0 -35px;
 }
 
 .no-scoop > div > div:nth-child(3) {
@@ -252,6 +253,10 @@
 }
 
 @media (max-width: 1400px) {
+    .no-scoop > div > div:nth-child(2) > img {
+        margin: 0 -20px;
+    }
+
     .top-feature > div {
         height: 70vh;
     }
@@ -446,6 +451,10 @@
 
     .no-scoop {
         margin-top: 75px;
+    }
+
+    .no-scoop > div > div:nth-child(2) > img {
+        margin: 0 -20px;
     }
 }
 
