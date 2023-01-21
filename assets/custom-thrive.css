@@ -17,7 +17,7 @@
 }
 
 .top-product {
-    background: #6cc6be;
+    background: #19bdbc;
 }
 
 .top-product > div {
@@ -230,13 +230,13 @@
 }
 
 .thrive-button.blue {
-    background-color: #6cc6be;
+    background-color: #19bdbc;
     transition: background-color 500ms;
 }
 
 .thrive-button.blue:hover {
     background-color: #f2faf9;
-    color: #6cc6be;
+    color: #19bdbc;
 }
 
 @media (max-width: 1700px) {
