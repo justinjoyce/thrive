@@ -633,6 +633,11 @@ table:not([class]) th {
   .small-hide {
     display: none !important;
   }
+
+  .rich-text__text>p, .paragraph {
+    font-size: 2rem;
+    line-height: 1.1
+  }
 }
 
 @media screen and (min-width: 750px) and (max-width: 989px) {
