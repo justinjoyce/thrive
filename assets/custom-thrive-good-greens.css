@@ -186,7 +186,7 @@
 }
 
 .thrive-flavors > div:nth-child(3) > div {
-    width: 50%;
+    width: 30%;
 }
 
 .thrive-flavors > div:nth-child(3) > div > img {
@@ -314,6 +314,10 @@
     .thrive-info {
         grid-template-columns: 2fr 1fr 4fr 1fr 2fr;
     }
+
+    .thrive-flavors > div:nth-child(3) > div {
+        width: 40%;
+    }
 }
 
 @media (max-width: 1000px) {
@@ -420,6 +424,10 @@
     .thrive-action-shot > div > h2,
     .thrive-advice > div > h2 {
         font-size: 3rem;
+    }
+
+    .thrive-flavors > div:nth-child(3) > div {
+        width: 40%;
     }
 }
 
