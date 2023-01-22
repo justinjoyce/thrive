@@ -2505,6 +2505,10 @@ input[type='checkbox'] {
   margin-right: -1.2rem;
 }
 
+#Details-menu-drawer-container > summary {
+  color: #231f20
+}
+
 @media screen and (max-width: 989px) {
   menu-drawer ~ .header__icons .header__icon--account {
     display: none;
