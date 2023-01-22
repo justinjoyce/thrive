@@ -2442,6 +2442,12 @@ input[type='checkbox'] {
   }
 }
 
+@media screen and (max-width: 420px) {
+  .header__heading-logo {
+    width: 75%;
+  }
+}
+
 @media screen and (min-width: 990px) {
   .header__heading-link {
     margin-left: -0.75rem;
@@ -2464,6 +2470,11 @@ input[type='checkbox'] {
   display: flex;
   grid-area: icons;
   justify-self: end;
+  background-color:#231f20;
+  color: #fff;
+  position: absolute;
+  right: 0;
+  width: 25vw;
 }
 
 .header__icon:not(.header__icon--summary),
@@ -2517,6 +2528,24 @@ input[type='checkbox'] {
 @media screen and (max-width: 989px) {
   menu-drawer ~ .header__icons .header__icon--account {
     display: none;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .header__icons {
+    width: 21vw;
+  }
+
+  .header__icon .icon {
+    height: 1.6rem;
+    width: 1.6rem;
+  }
+
+  .header__icon--cart .icon {
+    height: 3.4rem;
+    width: 3.4rem;
+    position: relative;
+    top: 1px;
   }
 }
 
