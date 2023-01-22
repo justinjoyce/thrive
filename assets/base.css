@@ -2533,7 +2533,7 @@ input[type='checkbox'] {
 
 @media screen and (max-width: 420px) {
   .header__icons {
-    width: 21vw;
+    width: 22vw;
   }
 
   .header__icon .icon {
@@ -2546,6 +2546,11 @@ input[type='checkbox'] {
     width: 3.4rem;
     position: relative;
     top: 1px;
+  }
+
+  .cart-count-bubble {
+    bottom: .4rem;
+    left: 2rem;
   }
 }
 
