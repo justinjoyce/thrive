@@ -34,7 +34,7 @@
               </p>
             {%- when 'text' -%}
               <div class="rich-text__text rte" {{ block.shopify_attributes }}>
-                {{ block.settings.text }}
+{% comment %}                 {{ block.settings.text }} {% endcomment %}
               </div>
             {%- when 'button' -%}
               <div class="rich-text__buttons{% if block.settings.button_label != blank and block.settings.button_label_2 != blank %} rich-text__buttons--multiple{% endif %}" {{ block.shopify_attributes }}>
