@@ -86,10 +86,9 @@
       "type": "custom-thrive-vegan-protein",
       "settings": {
         "image-product-info-mask": "shopify:\/\/shop_images\/Thrive-Vegan-Protein-Mask.png",
-        "image-cookie-crumble-product-back": "shopify:\/\/shop_images\/Thrive-Vegan-Protein-Cookie-Crumble-Back.png",
-        "image-chocolate-product-back": "shopify:\/\/shop_images\/Thrive-Vegan-Protein-Chocolate-Back.png",
-        "image-vanilla-product-back": "shopify:\/\/shop_images\/Thrive-Vegan-Protein-Vanilla-Back.png",
-        "image-banana-bread-product-back": "shopify:\/\/shop_images\/Thrive-Vegan-Protein-Banana-Bread-Back.png",
+        "image-cookie-crumble-product-back": "shopify:\/\/shop_images\/Thrive-Vegan-Protein-Cookie-Crumble-Back-v2.png",
+        "image-chocolate-product-back": "shopify:\/\/shop_images\/Thrive-Vegan-Protein-Chocolate-Back-v2.png",
+        "image-vanilla-product-back": "shopify:\/\/shop_images\/Thrive-Vegan-Protein-Vanilla-Back-v2.png",
         "image-cookie-crumble-product-info": "shopify:\/\/shop_images\/Thrive-Vegan-Protein-Cookie-Crumble-Info.jpg",
         "image-chocolate-product-info": "shopify:\/\/shop_images\/Thrive-Vegan-Protein-Chocolate-Info.jpg",
         "image-vanilla-product-info": "shopify:\/\/shop_images\/Thrive-Vegan-Protein-Vanilla-Info.jpg",
