@@ -432,7 +432,7 @@
     }
 
     .top-product > div > div:nth-child(1) > img {
-        width: 500px;
+        width: 400px;
         left: -75px;
     }
 
@@ -479,7 +479,6 @@
 
 @media (max-width: 420px) {
     .top-product > div > div:nth-child(1) > img {
-        width: 500px;
         left: -125px;
     }
 
