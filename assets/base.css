@@ -2252,7 +2252,7 @@ input[type='checkbox'] {
 }
 
 /* component-cart-count-bubble */
-.cart-icon-bubble {
+.cart-icon-bubble > svg {
   width: 85%;
   position: relative;
   top: -2px;
