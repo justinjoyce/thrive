@@ -794,6 +794,19 @@ class VariantSelects extends HTMLElement {
     if (!this.currentVariant) return;
     if (!this.currentVariant.featured_media) return;
 
+    const thumbnailsToHide = document.querySelectorAll('.selected-thumb');
+    thumbnailsToHide.forEach(element => {
+      element.style.display = "none";
+      element.classList.remove("selected-thumb");
+    });
+
+    const thumbnailSelector = this.currentVariant.title.toLowerCase().replace(' ', '-');
+    const thumbnailsToShow = document.querySelectorAll('[data-thumbnail-product="' + thumbnailSelector + '"]');
+    thumbnailsToShow.forEach(element => {
+      element.style.display = "block";
+      element.classList.add("selected-thumb");
+    });
+
     const mediaGalleries = document.querySelectorAll(`[id^="MediaGallery-${this.dataset.section}"]`);
     mediaGalleries.forEach(mediaGallery => mediaGallery.setActiveMedia(`${this.dataset.section}-${this.currentVariant.featured_media.id}`, true));
 
@@ -909,12 +922,25 @@ customElements.define('variant-selects', VariantSelects);
 class VariantRadios extends VariantSelects {
   constructor() {
     super();
+    this.showSelectedVariantThumbs();
   }
 
   updateOptions() {
     const fieldsets = Array.from(this.querySelectorAll('fieldset'));
     this.options = fieldsets.map((fieldset) => {
       return Array.from(fieldset.querySelectorAll('input')).find((radio) => radio.checked).value;
+    });
+  }
+
+  showSelectedVariantThumbs() {
+    const fieldsets = Array.from(this.querySelectorAll('fieldset'));
+    this.options = fieldsets.map((fieldset) => {
+      const thumbnailSelector = Array.from(fieldset.querySelectorAll('input')).find((radio) => radio.checked).value.toLowerCase().replace(' ', '-');
+      const selectedThumbnails = document.querySelectorAll('[data-thumbnail-product="' + thumbnailSelector + '"]');
+      selectedThumbnails.forEach(element => {
+        element.style.display = "block";
+        element.classList.add("selected-thumb");
+      });
     });
   }
 }
