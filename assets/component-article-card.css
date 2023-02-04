@@ -19,8 +19,8 @@
   color: #fff;
   border-radius: 10px;
   box-shadow: rgb(0 0 0 / 16%) 0 5px 15px 0, rgb(0 0 0 / 6%) 0 0 0 1px;
-  border: solid 1px #6cc6be;
-  background: #6cc6be;
+  border: solid 1px #19bdbc;
+  background: #19bdbc;
 }
 
 .article {
@@ -33,7 +33,7 @@
   grid-column: 1 / span 2;
   position:relative;
   margin: 100px 0 75px;
-  border-bottom: 7px solid #6cc6be;
+  border-bottom: 7px solid #19bdbc;
   padding-bottom: 81px;
 }
 
@@ -44,7 +44,7 @@
   left: -5px;
   font-size: 19rem;
   font-family: Andrial-Black, serif;
-  color: #6cc6be;
+  color: #19bdbc;
   opacity: 0.5;
   z-index: 0;
 }

@@ -757,7 +757,6 @@ class VariantSelects extends HTMLElement {
   constructor() {
     super();
     this.addEventListener('change', this.onVariantChange);
-    console.log("Good Spot For Showing?");
   }
 
   onVariantChange() {
