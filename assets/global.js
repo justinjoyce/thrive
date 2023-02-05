@@ -800,7 +800,7 @@ class VariantSelects extends HTMLElement {
       element.classList.remove("selected-thumb");
     });
 
-    const thumbnailSelector = this.currentVariant.title.toLowerCase().replace(' ', '-');
+    const thumbnailSelector = this.currentVariant.title.toLowerCase().replaceAll(' ', '-');
     const thumbnailsToShow = document.querySelectorAll('[data-thumbnail-product="' + thumbnailSelector + '"]');
     thumbnailsToShow.forEach(element => {
       element.style.display = "block";
@@ -935,7 +935,7 @@ class VariantRadios extends VariantSelects {
   showSelectedVariantThumbs() {
     const fieldsets = Array.from(this.querySelectorAll('fieldset'));
     this.options = fieldsets.map((fieldset) => {
-      const thumbnailSelector = Array.from(fieldset.querySelectorAll('input')).find((radio) => radio.checked).value.toLowerCase().replace(' ', '-');
+      const thumbnailSelector = Array.from(fieldset.querySelectorAll('input')).find((radio) => radio.checked).value.toLowerCase().replaceAll(' ', '-');
       const selectedThumbnails = document.querySelectorAll('[data-thumbnail-product="' + thumbnailSelector + '"]');
       selectedThumbnails.forEach(element => {
         element.style.display = "block";
