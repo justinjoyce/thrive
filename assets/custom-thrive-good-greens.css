@@ -331,6 +331,8 @@
     .thrive-info {
         grid-template-columns: 1fr 1fr 4fr 1fr 1fr;
         height: 60vw;
+        background: #99c45b no-repeat 115% -65%;
+        background-size: cover;
     }
 
     .thrive-info > div > div > img {
