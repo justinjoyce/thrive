@@ -11,8 +11,8 @@
     grid-template-areas:
     ". info-left product-back info-right .";
     height: 50vw;
-    background-size: contain;
     background: #99c45b no-repeat -65% -65%;
+    background-size: contain;
 }
 
 .thrive-info > .product-back {
