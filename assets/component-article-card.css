@@ -6,9 +6,11 @@
 
 .main-blog > h1.feature {
   font-family: Andrial-Medium, serif;
-  font-size: 5.4rem;
-  margin: 20px 125px -40px;
-  z-index: 0;
+  font-size: 6.4rem;
+  margin: 20px 125px -50px;
+  z-index: 1;
+  position: relative;
+  z-index: 1;
   position: relative;
 }
 
@@ -148,7 +150,7 @@
 
 @media screen and (max-width: 990px) {
   .main-blog > h1.feature {
-    margin: 5px 75px -65px;
+    margin: 5px 75px -75px;
   }
 
   .article.feature:before {
@@ -160,8 +162,8 @@
 
 @media screen and (max-width: 650px) {
   .main-blog > h1.feature {
-    font-size: 3.4rem;
-    margin: 5px 60px -70px;
+    font-size: 4.4rem;
+    margin: 5px 60px -80px;
   }
 
   .article.feature:before {
@@ -178,7 +180,8 @@
 
 @media screen and (max-width: 550px) {
   .main-blog > h1.feature {
-    margin: 0 45px -80px;
+    font-size: 4rem;
+    margin: 0 45px -90px;
   }
 
   .article.feature:before {
