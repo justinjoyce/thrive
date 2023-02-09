@@ -10,8 +10,9 @@
     grid-auto-flow: row;
     grid-template-areas:
     ". info-left product-back info-right .";
-    background: #99c45b center;
     height: 50vw;
+    background-size: contain;
+    background: #99c45b no-repeat -65% -65%;
 }
 
 .thrive-info > .product-back {
