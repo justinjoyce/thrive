@@ -46,6 +46,10 @@
   font-family: 'Andrial-Bold';
 }
 
+.thrive-contact > div > div:nth-child(2) > a {
+  color: #19bdbc;
+}
+
 @media screen and (max-width: 600px) {
   .thrive-contact > div {
     flex-direction: column;
