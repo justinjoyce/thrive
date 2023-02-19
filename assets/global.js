@@ -448,7 +448,31 @@ class ModalDialog extends HTMLElement {
     });
     if (this.classList.contains('media-modal')) {
       this.addEventListener('pointerup', (event) => {
-        if (event.pointerType === 'mouse' && !event.target.closest('deferred-media, product-model')) this.hide();
+        if (event.target.tagName === 'svg') {
+          if (event.pointerType === 'mouse' && !event.target.closest('deferred-media, product-model')) this.hide();
+        } else {
+
+          const data_media_id = event.target.dataset.mediaId;
+          const modal_container = document.querySelector('.product-media-modal__content');
+
+          if (data_media_id && modal_container) {
+            const modal_images = modal_container.getElementsByTagName("img");
+            if (modal_images) {
+              modal_images.forEach((element) => {
+                if (element.getAttribute('data-media-id') === data_media_id) {
+                  if (element.style.width == '100%') {
+                    element.style.width = '75%';
+                    element.style.cursor = 'zoom-in';
+                  } else {
+                    element.style.width = '100%';
+                    element.style.cursor = 'zoom-out';
+                  }
+                }
+              })
+            }
+          }
+
+        }
       });
     } else {
       this.addEventListener('click', (event) => {
@@ -491,6 +515,23 @@ class ModalOpener extends HTMLElement {
 
     if (!button) return;
     button.addEventListener('click', () => {
+
+      const data_media_id = button.getAttribute('data-media-id');
+      const modal_container = document.querySelector('.product-media-modal__content');
+
+      if (data_media_id && modal_container) {
+        const modal_images = modal_container.getElementsByTagName("img");
+        if (modal_images) {
+          modal_images.forEach((element) => {
+            if (element.getAttribute('data-media-id') === data_media_id) {
+              element.style.display = 'block';
+            } else {
+              element.style.display = 'none';
+            }
+          })
+        }
+      }
+
       const modal = document.querySelector(this.getAttribute('data-modal'));
       if (modal) modal.show(button);
     });

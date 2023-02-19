@@ -2244,7 +2244,7 @@ input[type='checkbox'] {
 }
 
 .media-modal {
-  cursor: zoom-out;
+  cursor: zoom-in;
 }
 
 .media-modal .deferred-media {
