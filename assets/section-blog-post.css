@@ -269,6 +269,26 @@
   background: #99c45b;
 }
 
+.flex-img {
+  display: flex;
+  gap: 30px;
+}
+
+.flex-img.left > div:nth-child(1) {
+  width: 40%;
+  margin-left: -30px;
+}
+
+.flex-img.left > div:nth-child(2),
+.flex-img.right > div:nth-child(1) {
+  width: 60%;
+}
+
+.flex-img.right > div:nth-child(2) {
+  width: 40%;
+  margin-right: -30px;
+}
+
 .black {
   font-family: Andrial-Black, serif !important;
 }
