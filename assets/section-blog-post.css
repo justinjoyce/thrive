@@ -216,6 +216,10 @@
   padding: 75px 45px 100px;
 }
 
+.article-highlight-img {
+  margin: 0 -45px;
+}
+
 .article-highlight {
   color: #fff;
   margin: 0 -45px;
@@ -338,6 +342,10 @@
 }
 
 @media screen and (max-width: 650px) {
+  .article-highlight-img {
+    margin: 0 -15px;
+  }
+
   .article-highlight {
     color: #fff;
     margin: 0 -15px;
