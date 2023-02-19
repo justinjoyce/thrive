@@ -78,41 +78,6 @@
         "padding_bottom": 0
       }
     },
-    "collage": {
-      "type": "collage",
-      "blocks": {
-        "product": {
-          "type": "product",
-          "settings": {
-            "product": "vegan-protein",
-            "second_image": false,
-            "button_color": "blue"
-          }
-        },
-        "877e7c8a-b747-48ec-a4a8-6025de6015e7": {
-          "type": "product",
-          "settings": {
-            "product": "good-greens",
-            "second_image": false,
-            "button_color": "green"
-          }
-        }
-      },
-      "block_order": [
-        "product",
-        "877e7c8a-b747-48ec-a4a8-6025de6015e7"
-      ],
-      "settings": {
-        "heading": "",
-        "heading_size": "h2",
-        "desktop_layout": "right",
-        "mobile_layout": "column",
-        "color_scheme": "background-1",
-        "show_card_info": false,
-        "padding_top": 76,
-        "padding_bottom": 36
-      }
-    },
     "c739328a-ad6e-463c-ab5d-ac26005b58aa": {
       "type": "custom-thrive",
       "settings": {
@@ -137,7 +102,6 @@
   "order": [
     "image_banner",
     "rich_text",
-    "collage",
     "c739328a-ad6e-463c-ab5d-ac26005b58aa"
   ]
 }
