@@ -279,6 +279,10 @@
   margin-left: -30px;
 }
 
+.flex-img.left > div:nth-child(1) > img {
+  background-position: center;
+}
+
 .flex-img.left > div:nth-child(2),
 .flex-img.right > div:nth-child(1) {
   width: 60%;
@@ -287,6 +291,10 @@
 .flex-img.right > div:nth-child(2) {
   width: 40%;
   margin-right: -30px;
+}
+
+.flex-img.right > div:nth-child(2) > img {
+  background-position: center;
 }
 
 .black {
