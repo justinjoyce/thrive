@@ -17,6 +17,23 @@
 <div class="color-{{ section.settings.color_scheme }} gradient">
   <div class="section-{{ section.id }}-padding">
 
+    <div class="thrive-flavors">
+      <div class="thrive-container">
+        <div>
+          <a href="/products/vegan-protein">
+            <button class="thrive-button blue">Shop Vegan Protein</button>
+          </a>
+          <img src="{{ section.settings.image-featured-vegan-protein-product | image_url }}" alt="Thrive PlantCo. Vegan Protein - Banana Bread Product Front">
+        </div>
+        <div>
+          <a href="/products/good-greens">
+            <button class="thrive-button green">Shop Good Greens</button>
+          </a>
+          <img src="{{ section.settings.image-featured-good-greens-product | image_url }}" alt="Thrive PlantCo. Good Greens - Mixed Berries Product Back">
+        </div>
+      </div>
+    </div>
+
     {%- if section.settings.image-feature-top != blank -%}
     <div class="top-feature">
       <div style="background-image: url({{ section.settings.image-feature-top | image_url }})">
@@ -164,6 +181,16 @@
   "tag": "section",
   "class": "section",
   "settings": [
+    {
+      "type": "image_picker",
+      "id": "image-featured-vegan-protein-product",
+      "label": "t:sections.custom-thrive.settings.image-featured-vegan-protein-product.label"
+    },
+    {
+      "type": "image_picker",
+      "id": "image-featured-good-greens-product",
+      "label": "t:sections.custom-thrive.settings.image-featured-good-greens-product.label"
+    },
     {
       "type": "image_picker",
       "id": "image-feature-top",
