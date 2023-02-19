@@ -338,6 +338,12 @@
 }
 
 @media screen and (max-width: 650px) {
+  .article-highlight {
+    color: #fff;
+    margin: 0 -15px;
+    padding: 10px 15px;
+  }
+
   .article-highlight > .flex-img.overflow-right {
     flex-direction:column;
     margin-right: 0;
