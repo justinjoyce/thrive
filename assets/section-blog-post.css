@@ -365,6 +365,7 @@
   .flex-img.img-right > div:nth-child(2) {
     width: 100%;
     margin: 0;
+    height: 300px;
   }
 
   .article-highlight > .flex-img.overflow-left {
