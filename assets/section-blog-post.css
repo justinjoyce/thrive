@@ -269,6 +269,10 @@
   background: #99c45b;
 }
 
+.black {
+  font-family: Andrial-Black, serif;
+}
+
 @media screen and (max-width: 925px) {
   .article-flex {
     flex-direction: column;
