@@ -270,7 +270,7 @@
 }
 
 .black {
-  font-family: Andrial-Black, serif;
+  font-family: Andrial-Black, serif !important;
 }
 
 @media screen and (max-width: 925px) {
