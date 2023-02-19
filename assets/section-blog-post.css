@@ -352,16 +352,16 @@
     padding: 10px 15px;
   }
 
-  .flex-img {
+  .article-highlight > .flex-img.overflow-right {
     flex-direction:column;
     margin-right: 0;
   }
 
-  .flex-img > div:nth-child(1) {
+  .article-highlight > .flex-img.overflow-right > div:nth-child(1) {
     width: 100%;
   }
 
-  .flex-img > div:nth-child(2) {
+  .article-highlight > .flex-img.overflow-right > div:nth-child(2) {
     width: 100%;
     margin-right: 0;
     height: 500px;
