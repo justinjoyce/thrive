@@ -256,6 +256,9 @@
   font-family: Andrial-ExtraBold;
   font-size: 4rem;
   text-transform: uppercase;
+  display: inline-block;
+  line-height: 1;
+  margin-top: 15px;
 }
 
 .thrive-strong.blue > span {
