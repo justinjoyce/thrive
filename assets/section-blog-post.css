@@ -252,6 +252,20 @@
   background: #19bdbc;
 }
 
+.thrive-strong {
+  font-family: Andrial-ExtraBold;
+  font-size: 4rem;
+  text-transform: uppercase;
+}
+
+.thrive-strong.blue > span {
+  color: #19bdbc;
+}
+
+.thrive-strong.green > span {
+  background: #99c45b;
+}
+
 @media screen and (max-width: 925px) {
   .article-flex {
     flex-direction: column;
