@@ -216,14 +216,28 @@
   padding: 75px 45px 100px;
 }
 
+.article-highlight {
+  color: #fff;
+  margin: 0 -45px;
+  padding: 10px 45px;
+}
+
+.article-highlight.blue,
 .article-splash.blue {
   background: #19bdbc;
 }
 
+.article-highlight.green,
+.article-splash.green {
+  background: #99c45b;
+}
+
+.article-highlight.blue h2,
 .article-splash h2 {
   color: #fff;
 }
 
+.article-highlight.blue ul,
 .article-splash ul {
   font-family: Andrial-DemiBold;
   font-size: 2rem;
