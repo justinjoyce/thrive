@@ -338,7 +338,18 @@
 }
 
 @media screen and (max-width: 650px) {
-  .flex-img.overflow-right {
+  .article-highlight > .flex-img.overflow-right {
+    flex-direction:column;
     margin-right: 0;
+  }
+
+  .article-highlight > .flex-img.overflow-right > div:nth-child(1) {
+    width: 100%;
+  }
+
+  .article-highlight > .flex-img.overflow-right > div:nth-child(2) {
+    width: 100%;
+    margin-right: 0;
+    height: 500px;
   }
 }
