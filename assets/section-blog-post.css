@@ -98,7 +98,9 @@
   margin-bottom: 3rem;
 }
 
-.article-template__content p {
+.article-template__content p,
+.article-template__content ul,
+.article-template__content ol {
   font-family: Andrial-DemiBold, serif;
   font-size: 2rem;
 }
