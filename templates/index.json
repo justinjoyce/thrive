@@ -81,6 +81,8 @@
     "c739328a-ad6e-463c-ab5d-ac26005b58aa": {
       "type": "custom-thrive",
       "settings": {
+        "image-featured-vegan-protein-product": "shopify:\/\/shop_images\/Thrive-Vegan-Protein-Banana-Bread-Front-v2.png",
+        "image-featured-good-greens-product": "shopify:\/\/shop_images\/Thrive-Good-Greens-Mixed-Berries-Front-v2.png",
         "image-feature-top": "shopify:\/\/shop_images\/Thrive-Get-Ready.jpg",
         "image-product-top": "shopify:\/\/shop_images\/Thrive-Vegan-Protein-Top-Product-v3.png",
         "image-product-multi": "shopify:\/\/shop_images\/Multi-Product-v2.png",
