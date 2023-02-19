@@ -286,6 +286,7 @@
   width: 40%;
   margin-left: -30px;
   background-position: center;
+  background-repeat: no-repeat;
 }
 
 .flex-img.left > div:nth-child(2),
@@ -297,6 +298,7 @@
   width: 40%;
   margin-right: -30px;
   background-position: center;
+  background-repeat: no-repeat;
 }
 
 .black {
