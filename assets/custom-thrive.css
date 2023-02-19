@@ -2,6 +2,29 @@
     overflow-y: hidden;
 }
 
+.thrive-flavors {
+    text-align: center;
+    margin: 25px 0 100px;
+}
+
+.thrive-flavors > div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.thrive-flavors > div > div {
+    width: 35%;
+}
+
+.thrive-flavors > div > div > a {
+    display: block;
+    margin-bottom: 35px;
+}
+
+.thrive-flavors > div > div > img {
+    width: 100%;
+}
+
 .top-feature {
     background: #231f20;
     margin: 75px 0 20px;
@@ -270,6 +293,10 @@
 }
 
 @media (max-width: 1400px) {
+    .thrive-flavors > div > div {
+        width: 40%;
+    }
+
     .no-scoop > div > div:nth-child(2) > img {
         margin: 0 -20px;
     }
@@ -331,6 +358,19 @@
 }
 
 @media (max-width: 750px) {
+    .thrive-flavors > div {
+        flex-direction: column;
+        gap: 45px;
+    }
+
+    .thrive-flavors > div > div {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .thrive-flavors > div > div > a > .thrive-button {
+        padding: 15px;
+    }
 
     .banner__heading {
         font-size: 9rem;

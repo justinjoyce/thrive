@@ -615,6 +615,12 @@
     "custom-thrive": {
       "name": "Custom Thrive",
       "settings": {
+        "image-featured-vegan-protein-product": {
+          "label": "Feature Vegan Protein Image"
+        },
+        "image-featured-good-greens-product": {
+          "label": "Feature Good Greens Image"
+        },
         "image-feature-top": {
           "label": "Top Feature Image"
         },
