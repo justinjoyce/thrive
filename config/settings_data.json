@@ -125,7 +125,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "Welcome to our store",
+              "text": "FREE SHIPPING OVER $69 (before taxes and after discount codes applied) WE CURRENTLY ONLY SHIP WITHIN CANADA",
               "text_alignment": "center",
               "color_scheme": "background-1",
               "link": ""
