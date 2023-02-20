@@ -38,6 +38,16 @@
     justify-content: left
 }
 
+.footer-block__list-with-image > div {
+    position: relative;
+}
+
+#insta {
+    position: absolute;
+    left: 50px;
+    bottom: 0;
+}
+
 .footer-block__list-with-image ul > li > a {
     color: #fff;
     font-size: 2.4rem;
@@ -71,6 +81,11 @@
         height: 220px;
     }
 
+    #insta {
+        left: 180px;
+        bottom: 20px;
+    }
+
     #shopify-section-footer > footer > div > div > div.footer-block.grid__item.footer-block--menu > div > div:nth-child(2) {
         display: none;
     }
@@ -84,5 +99,3 @@
         width: 100%;
     }
 }
-
-
