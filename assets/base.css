@@ -2449,6 +2449,11 @@ input[type='checkbox'] {
 }
 
 @media screen and (max-width: 420px) {
+  .announcement-bar__message {
+    padding: 0.5rem 0;
+    font-size: 1rem;
+  }
+
   .header__heading-logo {
     width: 75%;
   }
