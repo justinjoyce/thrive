@@ -2314,9 +2314,10 @@ input[type='checkbox'] {
 }
 
 .announcement-bar__message {
+  color: #fff;
   padding: 1rem 0;
   margin: 0;
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.06rem;
 }
 
 /* section-header */
