@@ -184,8 +184,8 @@
         "settings": {
           "color_scheme": "background-1",
           "newsletter_enable": false,
-          "newsletter_heading": "Subscribe to our emails",
-          "bottom_enable": false,
+          "newsletter_heading": "Stay Current",
+          "bottom_enable": true,
           "show_social": false,
           "enable_country_selector": false,
           "enable_language_selector": false,
