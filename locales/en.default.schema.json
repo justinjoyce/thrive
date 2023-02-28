@@ -1095,6 +1095,13 @@
         "bottom_enable": {
           "label": "Show footer bottom"
         },
+        "header__2_5": {
+          "content": "Show Copyright",
+          "info": "To display your copyright year and org, the org links to your homepage."
+        },
+        "show_copyright": {
+          "label": "Show copyright"
+        },
         "header__3": {
           "content": "Social media icons",
           "info": "To display your social media accounts, link them in your theme settings."

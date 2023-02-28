@@ -398,9 +398,11 @@
               </ul>
             </div>
           {%- endif -%}
+          {%- if section.settings.show_copyright -%}
           <div class="footer__copyright caption">
             <small class="copyright__content">&copy; {{ 'now' | date: "%Y" }}, {{ shop.name | link_to: routes.root_url }}</small>
           </div>
+          {%- endif -%}
         </div>
       </div>
     </div>
@@ -626,6 +628,17 @@ customElements.define('localization-form', LocalizationForm);
       "id": "bottom_enable",
       "default": false,
       "label": "t:sections.footer.settings.bottom_enable.label"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.footer.settings.header__2_5.content",
+      "info": "t:sections.footer.settings.header__2_5.info"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_copyright",
+      "default": false,
+      "label": "t:sections.footer.settings.show_copyright.label"
     },
     {
       "type": "header",
