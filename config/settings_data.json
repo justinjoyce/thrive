@@ -127,7 +127,6 @@
             "settings": {
               "text": "FREE SHIPPING OVER $69 (before taxes and after discount codes applied) WE CURRENTLY ONLY SHIP WITHIN CANADA",
               "text_alignment": "center",
-              "color_scheme": "accent-2",
               "link": ""
             }
           }
@@ -190,7 +189,7 @@
           "show_social": false,
           "enable_country_selector": false,
           "enable_language_selector": false,
-          "payment_enable": false,
+          "payment_enable": true,
           "margin_top": 100,
           "padding_top": 84,
           "padding_bottom": 28
@@ -356,7 +355,6 @@
               "type": "announcement",
               "settings": {
                 "text": "Welcome to our store",
-                "color_scheme": "background-1",
                 "link": ""
               }
             }
