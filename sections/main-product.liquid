@@ -98,7 +98,8 @@
                 <div class="product__tax caption rte">
                   {%- if shop.taxes_included -%}
                     {{ 'products.product.include_taxes' | t }}
-                  {%- else -%}
+                  {%- endif -%}
+                  {%- if shop.taxes_included != true -%}
                     {{ 'products.product.taxes_extra' | t }}
                   {%- endif -%}
                   {%- if shop.shipping_policy.body != blank -%}
