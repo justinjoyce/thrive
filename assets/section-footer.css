@@ -90,14 +90,11 @@
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 610px) {
+    .footer {
+        height: 550px;
+    }
     #shopify-section-footer > footer > div > .grid > div {
         width: 80%;
-    }
-}
-
-@media (max-width: 500px) {
-    .footer {
-        height: 475px;
     }
 }
