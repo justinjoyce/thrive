@@ -95,3 +95,9 @@
         width: 80%;
     }
 }
+
+@media (max-width: 500px) {
+    .footer {
+        height: 475px;
+    }
+}
