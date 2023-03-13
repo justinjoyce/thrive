@@ -276,6 +276,10 @@
     background: #19bdbc !important;
 }
 
+.yotpo-widget-instance {
+    margin-bottom: -70px;
+}
+
 @media (max-width: 1550px) {
     .thrive-info > div.info-left > div:nth-child(1),
     .thrive-info > div.info-left > div:nth-child(2) {
