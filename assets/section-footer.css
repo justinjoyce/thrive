@@ -65,9 +65,23 @@
 
 @media (max-width: 800px) {
     .footer {
-        height: 270px;
+        height: 400px;
         background-position: bottom right;
         background-size: 75%;
+    }
+
+    #shopify-section-footer > footer > div > .grid {
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+
+    #shopify-section-footer > footer > div > .grid > div {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    #shopify-section-footer > footer > div > .grid > div:nth-child(1) {
+        margin-bottom: 30px;
     }
 
     input[type=email] {
@@ -76,27 +90,9 @@
     }
 }
 
-@media (max-width: 750px) {
-    .footer {
-        height: 220px;
-    }
-
-    #insta {
-        left: 180px;
-        bottom: 20px;
-    }
-
-    #shopify-section-footer > footer > div > div > div.footer-block.grid__item.footer-block--menu > div > div:nth-child(2) {
-        display: none;
-    }
-}
-
-@media (max-width: 500px) {
-    #shopify-section-footer > footer > div > div > div.footer-block.grid__item.footer-block--menu {
-        display: none;
-    }
-    #shopify-section-footer > footer > div > div > div:nth-child(2) {
-        width: 100%;
+@media (max-width: 600px) {
+    #shopify-section-footer > footer > div > .grid > div {
+        width: 80%;
     }
 }
 
