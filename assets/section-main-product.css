@@ -589,6 +589,10 @@ span.price-item {
   .product__media-list .product__media-item {
     width: 100%;
   }
+
+  .product__media-list .selected-thumb {
+    width: 30%;
+  }
 }
 
 .product__media-icon .icon {
