@@ -125,7 +125,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "FREE SHIPPING OVER $99 (before taxes & after discount codes applied) WE CURRENTLY ONLY SHIP WITHIN CANADA.",
+              "text": "FREE SHIPPING OVER $99 (before taxes & after discount codes applied) CURRENTLY ONLY SHIP WITHIN CANADA",
               "text_alignment": "center",
               "link": ""
             }
