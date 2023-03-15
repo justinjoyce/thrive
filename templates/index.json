@@ -24,11 +24,12 @@
         "template--17568091242816__0e8f584c-4da8-4f32-9d1e-5900903101e1-16788393122a3cd97d-1": {
           "type": "slide",
           "settings": {
-            "heading": "Image slide",
+            "image": "shopify:\/\/shop_images\/Thrive-Good-Greens-Action.jpg",
+            "heading": "NOTIFY SLIDE",
             "heading_size": "h1",
             "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
+            "button_label": "Our Story",
+            "link": "shopify:\/\/pages\/our-story",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": true,
@@ -55,6 +56,7 @@
     },
     "image_banner": {
       "type": "image-banner",
+      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
