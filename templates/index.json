@@ -1,5 +1,58 @@
 {
   "sections": {
+    "0e8f584c-4da8-4f32-9d1e-5900903101e1": {
+      "type": "slideshow",
+      "blocks": {
+        "template--17568091242816__0e8f584c-4da8-4f32-9d1e-5900903101e1-16788393122a3cd97d-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/thrive-homepage.jpg",
+            "heading": "PLANT POWERED LIVING",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "template--17568091242816__0e8f584c-4da8-4f32-9d1e-5900903101e1-16788393122a3cd97d-1": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--17568091242816__0e8f584c-4da8-4f32-9d1e-5900903101e1-16788393122a3cd97d-0",
+        "template--17568091242816__0e8f584c-4da8-4f32-9d1e-5900903101e1-16788393122a3cd97d-1"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -98,6 +151,7 @@
     }
   },
   "order": [
+    "0e8f584c-4da8-4f32-9d1e-5900903101e1",
     "image_banner",
     "rich_text",
     "c739328a-ad6e-463c-ab5d-ac26005b58aa"
