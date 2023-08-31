@@ -565,9 +565,9 @@ span.price-item {
   }
 }
 
-.product__media-item:not(.product__media-item--variant) {
+/* .product__media-item:not(.product__media-item--variant) {
   display: none;
-}
+} */
 
 .product__media-item.product__media-item--variant {
   display: none;
