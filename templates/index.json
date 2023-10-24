@@ -2,7 +2,6 @@
   "sections": {
     "8d51ffd6-7678-42c8-b531-485da0163ba3": {
       "type": "image-banner",
-      "disabled": true,
       "blocks": {
         "template--17495341990185__8d51ffd6-7678-42c8-b531-485da0163ba3-167953853072d6359a-0": {
           "type": "heading",
@@ -38,6 +37,7 @@
         "template--17495341990185__8d51ffd6-7678-42c8-b531-485da0163ba3-167953853072d6359a-1",
         "template--17495341990185__8d51ffd6-7678-42c8-b531-485da0163ba3-167953853072d6359a-2"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Thrive_launch_hero.jpg",
         "image_overlay_opacity": 0,
@@ -136,7 +136,7 @@
         "image-featured-vegan-protein-product": "shopify:\/\/shop_images\/Thrive-Vegan-Protein-Banana-Bread-Front-v2.png",
         "image-featured-good-greens-product": "shopify:\/\/shop_images\/Thrive-Good-Greens-Mixed-Berries-Front-v2.png",
         "image-feature-top": "shopify:\/\/shop_images\/Thrive-Get-Ready.jpg",
-        "image-product-top": "shopify:\/\/shop_images\/Thrive-Vegan-Protein-Top-Product-v3.png",
+        "image-product-top": "shopify:\/\/shop_images\/Thrive-Vegan-Protein-Top-Product.png",
         "image-product-multi": "shopify:\/\/shop_images\/Multi-Product-v2.png",
         "image-icon-1": "shopify:\/\/shop_images\/Thrive-Icon-1.png",
         "image-icon-2": "shopify:\/\/shop_images\/Thrive-Icon-2.png",
