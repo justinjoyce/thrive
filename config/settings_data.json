@@ -125,8 +125,8 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "FREE SHIPPING OVER $70. Shipping only within Canada.",
-              "text_alignment": "center",
+              "text": "30% OFF BLACK FRIDAY SALE WITH CODE BF30 at Checkout. FREE SHIPPING OVER $70. Shipping only within Canada.",
+              "text_alignment": "right",
               "link": "\/pages\/faq"
             }
           }
