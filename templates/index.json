@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "8d51ffd6-7678-42c8-b531-485da0163ba3": {
@@ -39,7 +48,7 @@
       ],
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/Thrive_launch_hero.jpg",
+        "image": "shopify://shop_images/Thrive_launch_hero.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": true,
@@ -86,11 +95,9 @@
         "text",
         "button"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Biker_hero.jpg",
+        "image": "shopify://shop_images/Biker_hero.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": false,
@@ -116,7 +123,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Thrive Plant Co. was born from the recognition that we are all meant to THRIVE, not simply survive. As such, our plant-based products have been created to support your optimal level of health, using a combination of organic and natural ingredients. You will find recognizable ingredients in our products, such as fruits and vegetables, pea protein, and green tea. Don't worry, taste was high on our priority list too. Our team worked diligently to ensure the best balance of ingredients for health and flavour. Not to mention, our products are sweetened with stevia leaf extract.<\/p>"
+            "text": "<p>Thrive Plant Co. was born from the recognition that we are all meant to THRIVE, not simply survive. As such, our plant-based products have been created to support your optimal level of health, using a combination of organic and natural ingredients. Don't worry, taste was high on our priority list too. Our team worked diligently to ensure the best balance of ingredients for health and flavour. Not to mention, our products are sweetened with stevia leaf extract.</p>"
           }
         }
       },
@@ -136,20 +143,20 @@
     "c739328a-ad6e-463c-ab5d-ac26005b58aa": {
       "type": "custom-thrive",
       "settings": {
-        "image-featured-vegan-protein-product": "shopify:\/\/shop_images\/Thrive-Vegan-Protein-Banana-Bread-Front-v2.png",
-        "image-featured-good-greens-product": "shopify:\/\/shop_images\/Thrive-Good-Greens-Mixed-Berries-Front-v2.png",
-        "image-feature-top": "shopify:\/\/shop_images\/Thrive-Get-Ready.jpg",
-        "image-product-top": "shopify:\/\/shop_images\/Thrive-Vegan-Protein-Top-Product.png",
-        "image-product-multi": "shopify:\/\/shop_images\/Multi-Product-v2.png",
-        "image-icon-1": "shopify:\/\/shop_images\/Thrive-Icon-1.png",
-        "image-icon-2": "shopify:\/\/shop_images\/Thrive-Icon-2.png",
-        "image-icon-3": "shopify:\/\/shop_images\/Thrive-Icon-3.png",
-        "image-icon-4": "shopify:\/\/shop_images\/Thrive-Icon-4.png",
-        "image-product-bottom": "shopify:\/\/shop_images\/Thrive-Bottom-Product-Splash-v3.png",
-        "image-product-small-top": "shopify:\/\/shop_images\/Thrive-Good-Greens-Mixed-Berries-Front-v2.png",
-        "image-product-small-bottom": "shopify:\/\/shop_images\/Thrive-Good-Greens-Iced-Vanilla-Chai-Front-v2.png",
-        "image-button-highlight": "shopify:\/\/shop_images\/Thrive-NoScoop.png",
-        "image-feature-bottom": "shopify:\/\/shop_images\/Thrive-Yoga.jpg",
+        "image-featured-vegan-protein-product": "shopify://shop_images/Thrive-Vegan-Protein-Banana-Bread-Front-v2.png",
+        "image-featured-good-greens-product": "shopify://shop_images/Thrive-Good-Greens-Mixed-Berries-Front-v2.png",
+        "image-feature-top": "shopify://shop_images/Thrive-Get-Ready.jpg",
+        "image-product-top": "shopify://shop_images/Thrive-Vegan-Protein-Top-Product.png",
+        "image-product-multi": "shopify://shop_images/Multi-Product-v2.png",
+        "image-icon-1": "shopify://shop_images/Thrive-Icon-1.png",
+        "image-icon-2": "shopify://shop_images/Thrive-Icon-2.png",
+        "image-icon-3": "shopify://shop_images/Thrive-Icon-3.png",
+        "image-icon-4": "shopify://shop_images/Thrive-Icon-4.png",
+        "image-product-bottom": "shopify://shop_images/Thrive-Bottom-Product-Splash-v3.png",
+        "image-product-small-top": "shopify://shop_images/Thrive-Good-Greens-Mixed-Berries-Front-v2.png",
+        "image-product-small-bottom": "shopify://shop_images/Thrive-Good-Greens-Iced-Vanilla-Chai-Front-v2.png",
+        "image-button-highlight": "shopify://shop_images/Thrive-NoScoop.png",
+        "image-feature-bottom": "shopify://shop_images/Thrive-Yoga.jpg",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
